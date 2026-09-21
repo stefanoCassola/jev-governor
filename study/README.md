@@ -60,7 +60,7 @@ repository) was reworded for the public release in all three frozen directories 
 file only; no code line changed. The checksums recorded at freeze time are listed in `docs/AUDIT.md`.
 
 **Three controllers, one model.** The judgment model is used unchanged and untrained everywhere. The controller
-code around it is hand-written per problem class: `controller/benchmarks` (steady residual convergence, variants P
+code around it is AI-written per problem class: `controller/benchmarks` (steady residual convergence, variants P
 and E), `controller/permeability` (first-generation, permeability-aware) and `controller/transient` (PIMPLE outer
 loops). None of them was tested on a case family it had not seen.
 

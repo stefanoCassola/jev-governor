@@ -21,7 +21,7 @@ In-loop control of under-relaxation in OpenFOAM, and the study that tested it.
   told from slow progress). *Governor benchmarks:* Jev equal to the rules on pitzDaily and 0.15–0.35 decades worse
   on airFoil2D; Jev never beat the rules. `rules` is therefore the governor's default backend.
 * **The model is general, the controllers are not.** Jev is used untrained and unchanged everywhere; the control
-  code around it is hand-written per problem class (the governor and the study's steady controllers for SIMPLE /
+  code around it is AI-written per problem class (the governor and the study's steady controllers for SIMPLE /
   SIMPLEC, a permeability-aware controller, a transient PIMPLE controller and the governor's transient mode). None
   was tested on a case family it had not seen.
 * Robustness is the open problem: non-monotonic convergence landscapes defeat simple back-off rules, stopping rules
