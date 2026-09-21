@@ -1,0 +1,70 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v2406                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      controlDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+application     simpleFoam;
+
+startFrom       startTime;
+
+startTime       0;
+
+stopAt          endTime;
+
+endTime         1500;
+
+deltaT          1;
+
+writeControl    timeStep;
+
+writeInterval   500;
+
+purgeWrite      0;
+
+writeFormat     ascii;
+
+writePrecision  6;
+
+writeCompression off;
+
+timeFormat      general;
+
+timePrecision   6;
+
+runTimeModifiable true;
+
+functions
+{
+    jevGovernor
+    {
+        type            jevGovernor;
+        libs            (jevGovernor);
+
+        interval        25;         // iterations between decisions
+        mode            sync;       // sync: the solver waits | async: never waits
+        backend         rules;      // rules: offline | jev: needs TYPESAFE_API_KEY
+                                    // (JEV_GOVERNOR_BACKEND overrides this entry)
+        fields          (U p k epsilon);
+        momentum        U;
+        followers       (k epsilon);
+        pressure        p;
+        bounds          (0.3 0.95);
+        upwindFallback  yes;
+
+        description     "Steady incompressible turbulent flow over a backward-facing step (k-epsilon, SIMPLEC).";
+    }
+}
+
+
+// ************************************************************************* //

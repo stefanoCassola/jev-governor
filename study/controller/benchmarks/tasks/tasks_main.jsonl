@@ -1,0 +1,442 @@
+{"template": "cavity_Re100", "run": "ref/cavity_Re100__ref", "args": ["--method", "static", "--tight", "1e-3", "--end", "80000"]}
+{"template": "cavity_Re400", "run": "ref/cavity_Re400__ref", "args": ["--method", "static", "--tight", "1e-3", "--end", "80000"]}
+{"template": "cavity_Re1000", "run": "ref/cavity_Re1000__ref", "args": ["--method", "static", "--tight", "1e-3", "--end", "80000"]}
+{"template": "lbfs_Re400", "run": "ref/lbfs_Re400__ref", "args": ["--method", "static", "--tight", "1e-3", "--end", "80000"]}
+{"template": "lbfs_Re800", "run": "ref/lbfs_Re800__ref", "args": ["--method", "static", "--tight", "1e-3", "--end", "80000"]}
+{"template": "pitzDaily", "run": "ref/pitzDaily__ref", "args": ["--method", "static", "--tight", "1e-3", "--end", "20000"]}
+{"template": "pm_bfs_U25", "run": "ref/pm_bfs_U25__ref", "args": ["--method", "static", "--tight", "1e-3", "--end", "16000"]}
+{"template": "pm_bfs_U44", "run": "ref/pm_bfs_U44__ref", "args": ["--method", "static", "--tight", "1e-3", "--end", "16000"]}
+{"template": "pm_bfs_U50", "run": "ref/pm_bfs_U50__ref", "args": ["--method", "static", "--tight", "1e-3", "--end", "16000"]}
+{"template": "pm_bfs_U75", "run": "ref/pm_bfs_U75__ref", "args": ["--method", "static", "--tight", "1e-3", "--end", "16000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__default", "args": ["--method", "static", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__heuristic", "args": ["--method", "heuristic", "--interval", "10", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__heuristic_low", "args": ["--method", "heuristic", "--interval", "10", "--relax", "0.5", "0.2", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__jev_r0", "args": ["--method", "jev", "--interval", "10", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__jev_r1", "args": ["--method", "jev", "--interval", "10", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__jev_r2", "args": ["--method", "jev", "--interval", "10", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__jev_i5", "args": ["--method", "jev", "--interval", "5", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__jev_i20", "args": ["--method", "jev", "--interval", "20", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__jev_i50", "args": ["--method", "jev", "--interval", "50", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__jev_s0.5", "args": ["--method", "jev", "--interval", "10", "--scale", "0.5", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__jev_low", "args": ["--method", "jev", "--interval", "10", "--relax", "0.5", "0.2", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__jev_nounst", "args": ["--method", "jev", "--interval", "10", "--no-unstable", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__default", "args": ["--method", "static", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__heuristic", "args": ["--method", "heuristic", "--interval", "10", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__heuristic_low", "args": ["--method", "heuristic", "--interval", "10", "--relax", "0.5", "0.2", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__jev_r0", "args": ["--method", "jev", "--interval", "10", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__jev_r1", "args": ["--method", "jev", "--interval", "10", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__jev_r2", "args": ["--method", "jev", "--interval", "10", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__jev_i5", "args": ["--method", "jev", "--interval", "5", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__jev_i20", "args": ["--method", "jev", "--interval", "20", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__jev_i50", "args": ["--method", "jev", "--interval", "50", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__jev_s0.5", "args": ["--method", "jev", "--interval", "10", "--scale", "0.5", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__jev_low", "args": ["--method", "jev", "--interval", "10", "--relax", "0.5", "0.2", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__jev_nounst", "args": ["--method", "jev", "--interval", "10", "--no-unstable", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__default", "args": ["--method", "static", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__heuristic", "args": ["--method", "heuristic", "--interval", "10", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__heuristic_low", "args": ["--method", "heuristic", "--interval", "10", "--relax", "0.5", "0.2", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__jev_r0", "args": ["--method", "jev", "--interval", "10", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__jev_r1", "args": ["--method", "jev", "--interval", "10", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__jev_r2", "args": ["--method", "jev", "--interval", "10", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__jev_i5", "args": ["--method", "jev", "--interval", "5", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__jev_i20", "args": ["--method", "jev", "--interval", "20", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__jev_i50", "args": ["--method", "jev", "--interval", "50", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__jev_s0.5", "args": ["--method", "jev", "--interval", "10", "--scale", "0.5", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__jev_low", "args": ["--method", "jev", "--interval", "10", "--relax", "0.5", "0.2", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__jev_nounst", "args": ["--method", "jev", "--interval", "10", "--no-unstable", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__default", "args": ["--method", "static", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__heuristic", "args": ["--method", "heuristic", "--interval", "10", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__heuristic_low", "args": ["--method", "heuristic", "--interval", "10", "--relax", "0.5", "0.2", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__jev_r0", "args": ["--method", "jev", "--interval", "10", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__jev_r1", "args": ["--method", "jev", "--interval", "10", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__jev_r2", "args": ["--method", "jev", "--interval", "10", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__jev_i5", "args": ["--method", "jev", "--interval", "5", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__jev_i20", "args": ["--method", "jev", "--interval", "20", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__jev_i50", "args": ["--method", "jev", "--interval", "50", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__jev_s0.5", "args": ["--method", "jev", "--interval", "10", "--scale", "0.5", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__jev_low", "args": ["--method", "jev", "--interval", "10", "--relax", "0.5", "0.2", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__jev_nounst", "args": ["--method", "jev", "--interval", "10", "--no-unstable", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__default", "args": ["--method", "static", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__heuristic", "args": ["--method", "heuristic", "--interval", "10", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__heuristic_low", "args": ["--method", "heuristic", "--interval", "10", "--relax", "0.5", "0.2", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__jev_r0", "args": ["--method", "jev", "--interval", "10", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__jev_r1", "args": ["--method", "jev", "--interval", "10", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__jev_r2", "args": ["--method", "jev", "--interval", "10", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__jev_i5", "args": ["--method", "jev", "--interval", "5", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__jev_i20", "args": ["--method", "jev", "--interval", "20", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__jev_i50", "args": ["--method", "jev", "--interval", "50", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__jev_s0.5", "args": ["--method", "jev", "--interval", "10", "--scale", "0.5", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__jev_low", "args": ["--method", "jev", "--interval", "10", "--relax", "0.5", "0.2", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__jev_nounst", "args": ["--method", "jev", "--interval", "10", "--no-unstable", "--end", "20000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__default", "args": ["--method", "static", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__heuristic", "args": ["--method", "heuristic", "--interval", "10", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__heuristic_low", "args": ["--method", "heuristic", "--interval", "10", "--relax", "0.5", "0.3", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__jev_r0", "args": ["--method", "jev", "--interval", "10", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__jev_r1", "args": ["--method", "jev", "--interval", "10", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__jev_r2", "args": ["--method", "jev", "--interval", "10", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__jev_i5", "args": ["--method", "jev", "--interval", "5", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__jev_i20", "args": ["--method", "jev", "--interval", "20", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__jev_i50", "args": ["--method", "jev", "--interval", "50", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__jev_s0.5", "args": ["--method", "jev", "--interval", "10", "--scale", "0.5", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__jev_low", "args": ["--method", "jev", "--interval", "10", "--relax", "0.5", "0.3", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__jev_nounst", "args": ["--method", "jev", "--interval", "10", "--no-unstable", "--end", "5000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__default", "args": ["--method", "static", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__heuristic", "args": ["--method", "heuristic", "--interval", "10", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__heuristic_low", "args": ["--method", "heuristic", "--interval", "10", "--relax", "0.5", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__jev_r0", "args": ["--method", "jev", "--interval", "10", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__jev_r1", "args": ["--method", "jev", "--interval", "10", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__jev_r2", "args": ["--method", "jev", "--interval", "10", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__jev_i5", "args": ["--method", "jev", "--interval", "5", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__jev_i20", "args": ["--method", "jev", "--interval", "20", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__jev_i50", "args": ["--method", "jev", "--interval", "50", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__jev_s0.5", "args": ["--method", "jev", "--interval", "10", "--scale", "0.5", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__jev_low", "args": ["--method", "jev", "--interval", "10", "--relax", "0.5", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__jev_nounst", "args": ["--method", "jev", "--interval", "10", "--no-unstable", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__jev_pmbounds_i10", "args": ["--method", "jev", "--interval", "10", "--bounds", "0.2", "0.95", "0.2", "0.95", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__jev_pmbounds_i100", "args": ["--method", "jev", "--interval", "100", "--bounds", "0.2", "0.95", "0.2", "0.95", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__heuristic_pmbounds", "args": ["--method", "heuristic", "--interval", "10", "--bounds", "0.2", "0.95", "0.2", "0.95", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__default", "args": ["--method", "static", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__heuristic", "args": ["--method", "heuristic", "--interval", "10", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__heuristic_low", "args": ["--method", "heuristic", "--interval", "10", "--relax", "0.5", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__jev_r0", "args": ["--method", "jev", "--interval", "10", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__jev_r1", "args": ["--method", "jev", "--interval", "10", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__jev_r2", "args": ["--method", "jev", "--interval", "10", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__jev_i5", "args": ["--method", "jev", "--interval", "5", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__jev_i20", "args": ["--method", "jev", "--interval", "20", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__jev_i50", "args": ["--method", "jev", "--interval", "50", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__jev_s0.5", "args": ["--method", "jev", "--interval", "10", "--scale", "0.5", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__jev_low", "args": ["--method", "jev", "--interval", "10", "--relax", "0.5", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__jev_nounst", "args": ["--method", "jev", "--interval", "10", "--no-unstable", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__jev_pmbounds_i10", "args": ["--method", "jev", "--interval", "10", "--bounds", "0.2", "0.95", "0.2", "0.95", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__jev_pmbounds_i100", "args": ["--method", "jev", "--interval", "100", "--bounds", "0.2", "0.95", "0.2", "0.95", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__heuristic_pmbounds", "args": ["--method", "heuristic", "--interval", "10", "--bounds", "0.2", "0.95", "0.2", "0.95", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__default", "args": ["--method", "static", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__heuristic", "args": ["--method", "heuristic", "--interval", "10", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__heuristic_low", "args": ["--method", "heuristic", "--interval", "10", "--relax", "0.5", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__jev_r0", "args": ["--method", "jev", "--interval", "10", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__jev_r1", "args": ["--method", "jev", "--interval", "10", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__jev_r2", "args": ["--method", "jev", "--interval", "10", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__jev_i5", "args": ["--method", "jev", "--interval", "5", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__jev_i20", "args": ["--method", "jev", "--interval", "20", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__jev_i50", "args": ["--method", "jev", "--interval", "50", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__jev_s0.5", "args": ["--method", "jev", "--interval", "10", "--scale", "0.5", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__jev_low", "args": ["--method", "jev", "--interval", "10", "--relax", "0.5", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__jev_nounst", "args": ["--method", "jev", "--interval", "10", "--no-unstable", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__jev_pmbounds_i10", "args": ["--method", "jev", "--interval", "10", "--bounds", "0.2", "0.95", "0.2", "0.95", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__jev_pmbounds_i100", "args": ["--method", "jev", "--interval", "100", "--bounds", "0.2", "0.95", "0.2", "0.95", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__heuristic_pmbounds", "args": ["--method", "heuristic", "--interval", "10", "--bounds", "0.2", "0.95", "0.2", "0.95", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__default", "args": ["--method", "static", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__heuristic", "args": ["--method", "heuristic", "--interval", "10", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__heuristic_low", "args": ["--method", "heuristic", "--interval", "10", "--relax", "0.5", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__jev_r0", "args": ["--method", "jev", "--interval", "10", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__jev_r1", "args": ["--method", "jev", "--interval", "10", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__jev_r2", "args": ["--method", "jev", "--interval", "10", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__jev_i5", "args": ["--method", "jev", "--interval", "5", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__jev_i20", "args": ["--method", "jev", "--interval", "20", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__jev_i50", "args": ["--method", "jev", "--interval", "50", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__jev_s0.5", "args": ["--method", "jev", "--interval", "10", "--scale", "0.5", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__jev_low", "args": ["--method", "jev", "--interval", "10", "--relax", "0.5", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__jev_nounst", "args": ["--method", "jev", "--interval", "10", "--no-unstable", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__jev_pmbounds_i10", "args": ["--method", "jev", "--interval", "10", "--bounds", "0.2", "0.95", "0.2", "0.95", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__jev_pmbounds_i100", "args": ["--method", "jev", "--interval", "100", "--bounds", "0.2", "0.95", "0.2", "0.95", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__heuristic_pmbounds", "args": ["--method", "heuristic", "--interval", "10", "--bounds", "0.2", "0.95", "0.2", "0.95", "--end", "4000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__grid_U0.5_p0.1", "args": ["--method", "static", "--relax", "0.5", "0.1", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__grid_U0.5_p0.2", "args": ["--method", "static", "--relax", "0.5", "0.2", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__grid_U0.5_p0.3", "args": ["--method", "static", "--relax", "0.5", "0.3", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__grid_U0.5_p0.5", "args": ["--method", "static", "--relax", "0.5", "0.5", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__grid_U0.5_p0.7", "args": ["--method", "static", "--relax", "0.5", "0.7", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__grid_U0.6_p0.1", "args": ["--method", "static", "--relax", "0.6", "0.1", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__grid_U0.6_p0.2", "args": ["--method", "static", "--relax", "0.6", "0.2", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__grid_U0.6_p0.3", "args": ["--method", "static", "--relax", "0.6", "0.3", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__grid_U0.6_p0.5", "args": ["--method", "static", "--relax", "0.6", "0.5", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__grid_U0.6_p0.7", "args": ["--method", "static", "--relax", "0.6", "0.7", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__grid_U0.7_p0.1", "args": ["--method", "static", "--relax", "0.7", "0.1", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__grid_U0.7_p0.2", "args": ["--method", "static", "--relax", "0.7", "0.2", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__grid_U0.7_p0.3", "args": ["--method", "static", "--relax", "0.7", "0.3", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__grid_U0.7_p0.5", "args": ["--method", "static", "--relax", "0.7", "0.5", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__grid_U0.7_p0.7", "args": ["--method", "static", "--relax", "0.7", "0.7", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__grid_U0.8_p0.1", "args": ["--method", "static", "--relax", "0.8", "0.1", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__grid_U0.8_p0.2", "args": ["--method", "static", "--relax", "0.8", "0.2", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__grid_U0.8_p0.3", "args": ["--method", "static", "--relax", "0.8", "0.3", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__grid_U0.8_p0.5", "args": ["--method", "static", "--relax", "0.8", "0.5", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__grid_U0.8_p0.7", "args": ["--method", "static", "--relax", "0.8", "0.7", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__grid_U0.9_p0.1", "args": ["--method", "static", "--relax", "0.9", "0.1", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__grid_U0.9_p0.2", "args": ["--method", "static", "--relax", "0.9", "0.2", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__grid_U0.9_p0.3", "args": ["--method", "static", "--relax", "0.9", "0.3", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__grid_U0.9_p0.5", "args": ["--method", "static", "--relax", "0.9", "0.5", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "main/cavity_Re100__grid_U0.9_p0.7", "args": ["--method", "static", "--relax", "0.9", "0.7", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__grid_U0.5_p0.1", "args": ["--method", "static", "--relax", "0.5", "0.1", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__grid_U0.5_p0.2", "args": ["--method", "static", "--relax", "0.5", "0.2", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__grid_U0.5_p0.3", "args": ["--method", "static", "--relax", "0.5", "0.3", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__grid_U0.5_p0.5", "args": ["--method", "static", "--relax", "0.5", "0.5", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__grid_U0.5_p0.7", "args": ["--method", "static", "--relax", "0.5", "0.7", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__grid_U0.6_p0.1", "args": ["--method", "static", "--relax", "0.6", "0.1", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__grid_U0.6_p0.2", "args": ["--method", "static", "--relax", "0.6", "0.2", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__grid_U0.6_p0.3", "args": ["--method", "static", "--relax", "0.6", "0.3", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__grid_U0.6_p0.5", "args": ["--method", "static", "--relax", "0.6", "0.5", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__grid_U0.6_p0.7", "args": ["--method", "static", "--relax", "0.6", "0.7", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__grid_U0.7_p0.1", "args": ["--method", "static", "--relax", "0.7", "0.1", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__grid_U0.7_p0.2", "args": ["--method", "static", "--relax", "0.7", "0.2", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__grid_U0.7_p0.3", "args": ["--method", "static", "--relax", "0.7", "0.3", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__grid_U0.7_p0.5", "args": ["--method", "static", "--relax", "0.7", "0.5", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__grid_U0.7_p0.7", "args": ["--method", "static", "--relax", "0.7", "0.7", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__grid_U0.8_p0.1", "args": ["--method", "static", "--relax", "0.8", "0.1", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__grid_U0.8_p0.2", "args": ["--method", "static", "--relax", "0.8", "0.2", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__grid_U0.8_p0.3", "args": ["--method", "static", "--relax", "0.8", "0.3", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__grid_U0.8_p0.5", "args": ["--method", "static", "--relax", "0.8", "0.5", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__grid_U0.8_p0.7", "args": ["--method", "static", "--relax", "0.8", "0.7", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__grid_U0.9_p0.1", "args": ["--method", "static", "--relax", "0.9", "0.1", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__grid_U0.9_p0.2", "args": ["--method", "static", "--relax", "0.9", "0.2", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__grid_U0.9_p0.3", "args": ["--method", "static", "--relax", "0.9", "0.3", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__grid_U0.9_p0.5", "args": ["--method", "static", "--relax", "0.9", "0.5", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "main/cavity_Re400__grid_U0.9_p0.7", "args": ["--method", "static", "--relax", "0.9", "0.7", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__grid_U0.5_p0.1", "args": ["--method", "static", "--relax", "0.5", "0.1", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__grid_U0.5_p0.2", "args": ["--method", "static", "--relax", "0.5", "0.2", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__grid_U0.5_p0.3", "args": ["--method", "static", "--relax", "0.5", "0.3", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__grid_U0.5_p0.5", "args": ["--method", "static", "--relax", "0.5", "0.5", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__grid_U0.5_p0.7", "args": ["--method", "static", "--relax", "0.5", "0.7", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__grid_U0.6_p0.1", "args": ["--method", "static", "--relax", "0.6", "0.1", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__grid_U0.6_p0.2", "args": ["--method", "static", "--relax", "0.6", "0.2", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__grid_U0.6_p0.3", "args": ["--method", "static", "--relax", "0.6", "0.3", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__grid_U0.6_p0.5", "args": ["--method", "static", "--relax", "0.6", "0.5", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__grid_U0.6_p0.7", "args": ["--method", "static", "--relax", "0.6", "0.7", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__grid_U0.7_p0.1", "args": ["--method", "static", "--relax", "0.7", "0.1", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__grid_U0.7_p0.2", "args": ["--method", "static", "--relax", "0.7", "0.2", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__grid_U0.7_p0.3", "args": ["--method", "static", "--relax", "0.7", "0.3", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__grid_U0.7_p0.5", "args": ["--method", "static", "--relax", "0.7", "0.5", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__grid_U0.7_p0.7", "args": ["--method", "static", "--relax", "0.7", "0.7", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__grid_U0.8_p0.1", "args": ["--method", "static", "--relax", "0.8", "0.1", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__grid_U0.8_p0.2", "args": ["--method", "static", "--relax", "0.8", "0.2", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__grid_U0.8_p0.3", "args": ["--method", "static", "--relax", "0.8", "0.3", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__grid_U0.8_p0.5", "args": ["--method", "static", "--relax", "0.8", "0.5", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__grid_U0.8_p0.7", "args": ["--method", "static", "--relax", "0.8", "0.7", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__grid_U0.9_p0.1", "args": ["--method", "static", "--relax", "0.9", "0.1", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__grid_U0.9_p0.2", "args": ["--method", "static", "--relax", "0.9", "0.2", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__grid_U0.9_p0.3", "args": ["--method", "static", "--relax", "0.9", "0.3", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__grid_U0.9_p0.5", "args": ["--method", "static", "--relax", "0.9", "0.5", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "main/cavity_Re1000__grid_U0.9_p0.7", "args": ["--method", "static", "--relax", "0.9", "0.7", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__grid_U0.5_p0.1", "args": ["--method", "static", "--relax", "0.5", "0.1", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__grid_U0.5_p0.2", "args": ["--method", "static", "--relax", "0.5", "0.2", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__grid_U0.5_p0.3", "args": ["--method", "static", "--relax", "0.5", "0.3", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__grid_U0.5_p0.5", "args": ["--method", "static", "--relax", "0.5", "0.5", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__grid_U0.5_p0.7", "args": ["--method", "static", "--relax", "0.5", "0.7", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__grid_U0.6_p0.1", "args": ["--method", "static", "--relax", "0.6", "0.1", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__grid_U0.6_p0.2", "args": ["--method", "static", "--relax", "0.6", "0.2", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__grid_U0.6_p0.3", "args": ["--method", "static", "--relax", "0.6", "0.3", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__grid_U0.6_p0.5", "args": ["--method", "static", "--relax", "0.6", "0.5", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__grid_U0.6_p0.7", "args": ["--method", "static", "--relax", "0.6", "0.7", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__grid_U0.7_p0.1", "args": ["--method", "static", "--relax", "0.7", "0.1", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__grid_U0.7_p0.2", "args": ["--method", "static", "--relax", "0.7", "0.2", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__grid_U0.7_p0.3", "args": ["--method", "static", "--relax", "0.7", "0.3", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__grid_U0.7_p0.5", "args": ["--method", "static", "--relax", "0.7", "0.5", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__grid_U0.7_p0.7", "args": ["--method", "static", "--relax", "0.7", "0.7", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__grid_U0.8_p0.1", "args": ["--method", "static", "--relax", "0.8", "0.1", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__grid_U0.8_p0.2", "args": ["--method", "static", "--relax", "0.8", "0.2", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__grid_U0.8_p0.3", "args": ["--method", "static", "--relax", "0.8", "0.3", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__grid_U0.8_p0.5", "args": ["--method", "static", "--relax", "0.8", "0.5", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__grid_U0.8_p0.7", "args": ["--method", "static", "--relax", "0.8", "0.7", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__grid_U0.9_p0.1", "args": ["--method", "static", "--relax", "0.9", "0.1", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__grid_U0.9_p0.2", "args": ["--method", "static", "--relax", "0.9", "0.2", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__grid_U0.9_p0.3", "args": ["--method", "static", "--relax", "0.9", "0.3", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__grid_U0.9_p0.5", "args": ["--method", "static", "--relax", "0.9", "0.5", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "main/lbfs_Re400__grid_U0.9_p0.7", "args": ["--method", "static", "--relax", "0.9", "0.7", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__grid_U0.5_p0.1", "args": ["--method", "static", "--relax", "0.5", "0.1", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__grid_U0.5_p0.2", "args": ["--method", "static", "--relax", "0.5", "0.2", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__grid_U0.5_p0.3", "args": ["--method", "static", "--relax", "0.5", "0.3", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__grid_U0.5_p0.5", "args": ["--method", "static", "--relax", "0.5", "0.5", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__grid_U0.5_p0.7", "args": ["--method", "static", "--relax", "0.5", "0.7", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__grid_U0.6_p0.1", "args": ["--method", "static", "--relax", "0.6", "0.1", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__grid_U0.6_p0.2", "args": ["--method", "static", "--relax", "0.6", "0.2", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__grid_U0.6_p0.3", "args": ["--method", "static", "--relax", "0.6", "0.3", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__grid_U0.6_p0.5", "args": ["--method", "static", "--relax", "0.6", "0.5", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__grid_U0.6_p0.7", "args": ["--method", "static", "--relax", "0.6", "0.7", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__grid_U0.7_p0.1", "args": ["--method", "static", "--relax", "0.7", "0.1", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__grid_U0.7_p0.2", "args": ["--method", "static", "--relax", "0.7", "0.2", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__grid_U0.7_p0.3", "args": ["--method", "static", "--relax", "0.7", "0.3", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__grid_U0.7_p0.5", "args": ["--method", "static", "--relax", "0.7", "0.5", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__grid_U0.7_p0.7", "args": ["--method", "static", "--relax", "0.7", "0.7", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__grid_U0.8_p0.1", "args": ["--method", "static", "--relax", "0.8", "0.1", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__grid_U0.8_p0.2", "args": ["--method", "static", "--relax", "0.8", "0.2", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__grid_U0.8_p0.3", "args": ["--method", "static", "--relax", "0.8", "0.3", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__grid_U0.8_p0.5", "args": ["--method", "static", "--relax", "0.8", "0.5", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__grid_U0.8_p0.7", "args": ["--method", "static", "--relax", "0.8", "0.7", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__grid_U0.9_p0.1", "args": ["--method", "static", "--relax", "0.9", "0.1", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__grid_U0.9_p0.2", "args": ["--method", "static", "--relax", "0.9", "0.2", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__grid_U0.9_p0.3", "args": ["--method", "static", "--relax", "0.9", "0.3", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__grid_U0.9_p0.5", "args": ["--method", "static", "--relax", "0.9", "0.5", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "main/lbfs_Re800__grid_U0.9_p0.7", "args": ["--method", "static", "--relax", "0.9", "0.7", "--end", "20000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.3_p0.3", "args": ["--method", "static", "--relax", "0.3", "0.3", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.3_p0.5", "args": ["--method", "static", "--relax", "0.3", "0.5", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.3_p0.7", "args": ["--method", "static", "--relax", "0.3", "0.7", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.3_p0.9", "args": ["--method", "static", "--relax", "0.3", "0.9", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.3_p1.0", "args": ["--method", "static", "--relax", "0.3", "1.0", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.5_p0.3", "args": ["--method", "static", "--relax", "0.5", "0.3", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.5_p0.5", "args": ["--method", "static", "--relax", "0.5", "0.5", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.5_p0.7", "args": ["--method", "static", "--relax", "0.5", "0.7", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.5_p0.9", "args": ["--method", "static", "--relax", "0.5", "0.9", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.5_p1.0", "args": ["--method", "static", "--relax", "0.5", "1.0", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.7_p0.3", "args": ["--method", "static", "--relax", "0.7", "0.3", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.7_p0.5", "args": ["--method", "static", "--relax", "0.7", "0.5", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.7_p0.7", "args": ["--method", "static", "--relax", "0.7", "0.7", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.7_p0.9", "args": ["--method", "static", "--relax", "0.7", "0.9", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.7_p1.0", "args": ["--method", "static", "--relax", "0.7", "1.0", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.8_p0.3", "args": ["--method", "static", "--relax", "0.8", "0.3", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.8_p0.5", "args": ["--method", "static", "--relax", "0.8", "0.5", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.8_p0.7", "args": ["--method", "static", "--relax", "0.8", "0.7", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.8_p0.9", "args": ["--method", "static", "--relax", "0.8", "0.9", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.8_p1.0", "args": ["--method", "static", "--relax", "0.8", "1.0", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.9_p0.3", "args": ["--method", "static", "--relax", "0.9", "0.3", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.9_p0.5", "args": ["--method", "static", "--relax", "0.9", "0.5", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.9_p0.7", "args": ["--method", "static", "--relax", "0.9", "0.7", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.9_p0.9", "args": ["--method", "static", "--relax", "0.9", "0.9", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.9_p1.0", "args": ["--method", "static", "--relax", "0.9", "1.0", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.95_p0.3", "args": ["--method", "static", "--relax", "0.95", "0.3", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.95_p0.5", "args": ["--method", "static", "--relax", "0.95", "0.5", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.95_p0.7", "args": ["--method", "static", "--relax", "0.95", "0.7", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.95_p0.9", "args": ["--method", "static", "--relax", "0.95", "0.9", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.95_p1.0", "args": ["--method", "static", "--relax", "0.95", "1.0", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.98_p0.3", "args": ["--method", "static", "--relax", "0.98", "0.3", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.98_p0.5", "args": ["--method", "static", "--relax", "0.98", "0.5", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.98_p0.7", "args": ["--method", "static", "--relax", "0.98", "0.7", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.98_p0.9", "args": ["--method", "static", "--relax", "0.98", "0.9", "--end", "5000"]}
+{"template": "pitzDaily", "run": "main/pitzDaily__grid_U0.98_p1.0", "args": ["--method", "static", "--relax", "0.98", "1.0", "--end", "5000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.3_p0.3", "args": ["--method", "static", "--relax", "0.3", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.3_p0.5", "args": ["--method", "static", "--relax", "0.3", "0.5", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.3_p0.7", "args": ["--method", "static", "--relax", "0.3", "0.7", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.3_p0.9", "args": ["--method", "static", "--relax", "0.3", "0.9", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.3_p1.0", "args": ["--method", "static", "--relax", "0.3", "1.0", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.5_p0.3", "args": ["--method", "static", "--relax", "0.5", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.5_p0.5", "args": ["--method", "static", "--relax", "0.5", "0.5", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.5_p0.7", "args": ["--method", "static", "--relax", "0.5", "0.7", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.5_p0.9", "args": ["--method", "static", "--relax", "0.5", "0.9", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.5_p1.0", "args": ["--method", "static", "--relax", "0.5", "1.0", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.7_p0.3", "args": ["--method", "static", "--relax", "0.7", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.7_p0.5", "args": ["--method", "static", "--relax", "0.7", "0.5", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.7_p0.7", "args": ["--method", "static", "--relax", "0.7", "0.7", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.7_p0.9", "args": ["--method", "static", "--relax", "0.7", "0.9", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.7_p1.0", "args": ["--method", "static", "--relax", "0.7", "1.0", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.8_p0.3", "args": ["--method", "static", "--relax", "0.8", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.8_p0.5", "args": ["--method", "static", "--relax", "0.8", "0.5", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.8_p0.7", "args": ["--method", "static", "--relax", "0.8", "0.7", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.8_p0.9", "args": ["--method", "static", "--relax", "0.8", "0.9", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.8_p1.0", "args": ["--method", "static", "--relax", "0.8", "1.0", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.9_p0.3", "args": ["--method", "static", "--relax", "0.9", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.9_p0.5", "args": ["--method", "static", "--relax", "0.9", "0.5", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.9_p0.7", "args": ["--method", "static", "--relax", "0.9", "0.7", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.9_p0.9", "args": ["--method", "static", "--relax", "0.9", "0.9", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.9_p1.0", "args": ["--method", "static", "--relax", "0.9", "1.0", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.95_p0.3", "args": ["--method", "static", "--relax", "0.95", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.95_p0.5", "args": ["--method", "static", "--relax", "0.95", "0.5", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.95_p0.7", "args": ["--method", "static", "--relax", "0.95", "0.7", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.95_p0.9", "args": ["--method", "static", "--relax", "0.95", "0.9", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.95_p1.0", "args": ["--method", "static", "--relax", "0.95", "1.0", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.98_p0.3", "args": ["--method", "static", "--relax", "0.98", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.98_p0.5", "args": ["--method", "static", "--relax", "0.98", "0.5", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.98_p0.7", "args": ["--method", "static", "--relax", "0.98", "0.7", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.98_p0.9", "args": ["--method", "static", "--relax", "0.98", "0.9", "--end", "4000"]}
+{"template": "pm_bfs_U25", "run": "main/pm_bfs_U25__grid_U0.98_p1.0", "args": ["--method", "static", "--relax", "0.98", "1.0", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.3_p0.3", "args": ["--method", "static", "--relax", "0.3", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.3_p0.5", "args": ["--method", "static", "--relax", "0.3", "0.5", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.3_p0.7", "args": ["--method", "static", "--relax", "0.3", "0.7", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.3_p0.9", "args": ["--method", "static", "--relax", "0.3", "0.9", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.3_p1.0", "args": ["--method", "static", "--relax", "0.3", "1.0", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.5_p0.3", "args": ["--method", "static", "--relax", "0.5", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.5_p0.5", "args": ["--method", "static", "--relax", "0.5", "0.5", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.5_p0.7", "args": ["--method", "static", "--relax", "0.5", "0.7", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.5_p0.9", "args": ["--method", "static", "--relax", "0.5", "0.9", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.5_p1.0", "args": ["--method", "static", "--relax", "0.5", "1.0", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.7_p0.3", "args": ["--method", "static", "--relax", "0.7", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.7_p0.5", "args": ["--method", "static", "--relax", "0.7", "0.5", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.7_p0.7", "args": ["--method", "static", "--relax", "0.7", "0.7", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.7_p0.9", "args": ["--method", "static", "--relax", "0.7", "0.9", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.7_p1.0", "args": ["--method", "static", "--relax", "0.7", "1.0", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.8_p0.3", "args": ["--method", "static", "--relax", "0.8", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.8_p0.5", "args": ["--method", "static", "--relax", "0.8", "0.5", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.8_p0.7", "args": ["--method", "static", "--relax", "0.8", "0.7", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.8_p0.9", "args": ["--method", "static", "--relax", "0.8", "0.9", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.8_p1.0", "args": ["--method", "static", "--relax", "0.8", "1.0", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.9_p0.3", "args": ["--method", "static", "--relax", "0.9", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.9_p0.5", "args": ["--method", "static", "--relax", "0.9", "0.5", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.9_p0.7", "args": ["--method", "static", "--relax", "0.9", "0.7", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.9_p0.9", "args": ["--method", "static", "--relax", "0.9", "0.9", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.9_p1.0", "args": ["--method", "static", "--relax", "0.9", "1.0", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.95_p0.3", "args": ["--method", "static", "--relax", "0.95", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.95_p0.5", "args": ["--method", "static", "--relax", "0.95", "0.5", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.95_p0.7", "args": ["--method", "static", "--relax", "0.95", "0.7", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.95_p0.9", "args": ["--method", "static", "--relax", "0.95", "0.9", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.95_p1.0", "args": ["--method", "static", "--relax", "0.95", "1.0", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.98_p0.3", "args": ["--method", "static", "--relax", "0.98", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.98_p0.5", "args": ["--method", "static", "--relax", "0.98", "0.5", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.98_p0.7", "args": ["--method", "static", "--relax", "0.98", "0.7", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.98_p0.9", "args": ["--method", "static", "--relax", "0.98", "0.9", "--end", "4000"]}
+{"template": "pm_bfs_U44", "run": "main/pm_bfs_U44__grid_U0.98_p1.0", "args": ["--method", "static", "--relax", "0.98", "1.0", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.3_p0.3", "args": ["--method", "static", "--relax", "0.3", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.3_p0.5", "args": ["--method", "static", "--relax", "0.3", "0.5", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.3_p0.7", "args": ["--method", "static", "--relax", "0.3", "0.7", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.3_p0.9", "args": ["--method", "static", "--relax", "0.3", "0.9", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.3_p1.0", "args": ["--method", "static", "--relax", "0.3", "1.0", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.5_p0.3", "args": ["--method", "static", "--relax", "0.5", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.5_p0.5", "args": ["--method", "static", "--relax", "0.5", "0.5", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.5_p0.7", "args": ["--method", "static", "--relax", "0.5", "0.7", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.5_p0.9", "args": ["--method", "static", "--relax", "0.5", "0.9", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.5_p1.0", "args": ["--method", "static", "--relax", "0.5", "1.0", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.7_p0.3", "args": ["--method", "static", "--relax", "0.7", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.7_p0.5", "args": ["--method", "static", "--relax", "0.7", "0.5", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.7_p0.7", "args": ["--method", "static", "--relax", "0.7", "0.7", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.7_p0.9", "args": ["--method", "static", "--relax", "0.7", "0.9", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.7_p1.0", "args": ["--method", "static", "--relax", "0.7", "1.0", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.8_p0.3", "args": ["--method", "static", "--relax", "0.8", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.8_p0.5", "args": ["--method", "static", "--relax", "0.8", "0.5", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.8_p0.7", "args": ["--method", "static", "--relax", "0.8", "0.7", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.8_p0.9", "args": ["--method", "static", "--relax", "0.8", "0.9", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.8_p1.0", "args": ["--method", "static", "--relax", "0.8", "1.0", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.9_p0.3", "args": ["--method", "static", "--relax", "0.9", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.9_p0.5", "args": ["--method", "static", "--relax", "0.9", "0.5", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.9_p0.7", "args": ["--method", "static", "--relax", "0.9", "0.7", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.9_p0.9", "args": ["--method", "static", "--relax", "0.9", "0.9", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.9_p1.0", "args": ["--method", "static", "--relax", "0.9", "1.0", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.95_p0.3", "args": ["--method", "static", "--relax", "0.95", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.95_p0.5", "args": ["--method", "static", "--relax", "0.95", "0.5", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.95_p0.7", "args": ["--method", "static", "--relax", "0.95", "0.7", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.95_p0.9", "args": ["--method", "static", "--relax", "0.95", "0.9", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.95_p1.0", "args": ["--method", "static", "--relax", "0.95", "1.0", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.98_p0.3", "args": ["--method", "static", "--relax", "0.98", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.98_p0.5", "args": ["--method", "static", "--relax", "0.98", "0.5", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.98_p0.7", "args": ["--method", "static", "--relax", "0.98", "0.7", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.98_p0.9", "args": ["--method", "static", "--relax", "0.98", "0.9", "--end", "4000"]}
+{"template": "pm_bfs_U50", "run": "main/pm_bfs_U50__grid_U0.98_p1.0", "args": ["--method", "static", "--relax", "0.98", "1.0", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.3_p0.3", "args": ["--method", "static", "--relax", "0.3", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.3_p0.5", "args": ["--method", "static", "--relax", "0.3", "0.5", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.3_p0.7", "args": ["--method", "static", "--relax", "0.3", "0.7", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.3_p0.9", "args": ["--method", "static", "--relax", "0.3", "0.9", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.3_p1.0", "args": ["--method", "static", "--relax", "0.3", "1.0", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.5_p0.3", "args": ["--method", "static", "--relax", "0.5", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.5_p0.5", "args": ["--method", "static", "--relax", "0.5", "0.5", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.5_p0.7", "args": ["--method", "static", "--relax", "0.5", "0.7", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.5_p0.9", "args": ["--method", "static", "--relax", "0.5", "0.9", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.5_p1.0", "args": ["--method", "static", "--relax", "0.5", "1.0", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.7_p0.3", "args": ["--method", "static", "--relax", "0.7", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.7_p0.5", "args": ["--method", "static", "--relax", "0.7", "0.5", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.7_p0.7", "args": ["--method", "static", "--relax", "0.7", "0.7", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.7_p0.9", "args": ["--method", "static", "--relax", "0.7", "0.9", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.7_p1.0", "args": ["--method", "static", "--relax", "0.7", "1.0", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.8_p0.3", "args": ["--method", "static", "--relax", "0.8", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.8_p0.5", "args": ["--method", "static", "--relax", "0.8", "0.5", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.8_p0.7", "args": ["--method", "static", "--relax", "0.8", "0.7", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.8_p0.9", "args": ["--method", "static", "--relax", "0.8", "0.9", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.8_p1.0", "args": ["--method", "static", "--relax", "0.8", "1.0", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.9_p0.3", "args": ["--method", "static", "--relax", "0.9", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.9_p0.5", "args": ["--method", "static", "--relax", "0.9", "0.5", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.9_p0.7", "args": ["--method", "static", "--relax", "0.9", "0.7", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.9_p0.9", "args": ["--method", "static", "--relax", "0.9", "0.9", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.9_p1.0", "args": ["--method", "static", "--relax", "0.9", "1.0", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.95_p0.3", "args": ["--method", "static", "--relax", "0.95", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.95_p0.5", "args": ["--method", "static", "--relax", "0.95", "0.5", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.95_p0.7", "args": ["--method", "static", "--relax", "0.95", "0.7", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.95_p0.9", "args": ["--method", "static", "--relax", "0.95", "0.9", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.95_p1.0", "args": ["--method", "static", "--relax", "0.95", "1.0", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.98_p0.3", "args": ["--method", "static", "--relax", "0.98", "0.3", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.98_p0.5", "args": ["--method", "static", "--relax", "0.98", "0.5", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.98_p0.7", "args": ["--method", "static", "--relax", "0.98", "0.7", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.98_p0.9", "args": ["--method", "static", "--relax", "0.98", "0.9", "--end", "4000"]}
+{"template": "pm_bfs_U75", "run": "main/pm_bfs_U75__grid_U0.98_p1.0", "args": ["--method", "static", "--relax", "0.98", "1.0", "--end", "4000"]}

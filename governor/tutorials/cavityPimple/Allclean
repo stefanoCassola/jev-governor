@@ -1,0 +1,14 @@
+#!/bin/sh
+cd "${0%/*}" || exit                                # Run from this directory
+. ${WM_PROJECT_DIR:?}/bin/tools/CleanFunctions      # Tutorial clean functions
+#------------------------------------------------------------------------------
+
+cleanCase
+rm -rf jevGovernor
+# A run that was killed leaves the back-ups behind: put the originals back
+for f in fvSolution fvSchemes
+do
+    [ -f system/$f.jevGovernor.orig ] && mv system/$f.jevGovernor.orig system/$f
+done
+
+#------------------------------------------------------------------------------

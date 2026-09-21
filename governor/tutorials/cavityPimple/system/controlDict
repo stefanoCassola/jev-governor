@@ -1,0 +1,71 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v2406                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      controlDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+application     pimpleFoam;
+
+startFrom       startTime;
+
+startTime       0;
+
+stopAt          endTime;
+
+endTime         20;
+
+deltaT          0.1;
+
+writeControl    timeStep;
+
+writeInterval   100;
+
+purgeWrite      0;
+
+writeFormat     ascii;
+
+writePrecision  6;
+
+writeCompression off;
+
+timeFormat      general;
+
+timePrecision   6;
+
+runTimeModifiable true;
+
+functions
+{
+    jevGovernor
+    {
+        type            jevGovernor;
+        libs            (jevGovernor);
+
+        algorithm       PIMPLE;     // govern the outer loop of a transient run
+        interval        10;         // time steps between decisions
+        mode            sync;       // sync | async; the guard is synchronous in both
+        backend         rules;      // rules: offline | jev: needs TYPESAFE_API_KEY
+                                    // (JEV_GOVERNOR_BACKEND overrides this entry)
+        momentum        U;
+        pressure        p;
+        bounds          (0.3 0.95);
+        pressureBounds  (0.1 0.9);
+        floor           3;          // stop tuning at this many outer iterations
+        checkpoint      no;         // yes: write a time directory before a trial
+
+        description     "Transient laminar lid-driven cavity at Re 1000, impulsive start, Courant number about 6.";
+    }
+}
+
+
+// ************************************************************************* //

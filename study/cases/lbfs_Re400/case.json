@@ -1,0 +1,17 @@
+{
+ "solver": "simpleFoam",
+ "algorithm": "SIMPLE",
+ "regime": "laminar",
+ "description": "two-dimensional laminar flow over a backward-facing step (expansion ratio 2) at Reynolds number 400, parabolic inflow",
+ "U": 0.7,
+ "p": 0.3,
+ "turb": null,
+ "turb_fields": [],
+ "targets": {
+  "p": 1e-05,
+  "U": 1e-06
+ },
+ "monitor_re": null,
+ "context": "Steady incompressible laminar flow: two-dimensional laminar flow over a backward-facing step (expansion ratio 2) at Reynolds number 400, parabolic inflow. Solved with OpenFOAM simpleFoam using standard SIMPLE pressure-velocity coupling; with SIMPLE the pressure under-relaxation factor is usually kept well below 1, roughly one minus the momentum factor. The run stops once every equation residual is below its convergence target. Goal: reach convergence in as few iterations as possible without oscillation or divergence. The momentum (U) under-relaxation factor acts like a pseudo time step: larger values give faster progress but less stability.",
+ "turb_follow": true
+}

@@ -1,0 +1,5 @@
+jev_api_key
+*.key
+.env
+__pycache__/
+.venv/

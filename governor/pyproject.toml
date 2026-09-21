@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jev-governor"
+version = "0.3.1"
+description = "Decision sidecar of jevGovernor, an in-loop solver governor for OpenFOAM driven by TypeSafe's Jev"
+readme = "README.md"
+license = { text = "GPL-3.0-or-later" }
+authors = [{ name = "Stefano Cassola" }]
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+jev = ["typesafe-sdk>=0.7"]
+test = ["pytest>=7"]
+
+[project.scripts]
+jev-governor = "jev_governor.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["python"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

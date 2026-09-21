@@ -1,0 +1,18 @@
+iteration       50;
+relaxationFactors
+{
+    fields
+    {
+        p               0.3396;
+    }
+}
+guardRef        21.0;
+trial
+{
+    factor          p;
+    from            0.3000;
+    id              50;
+}
+upwind          false;
+stop            false;
+note            "increase_probe: p 0.300 -> 0.340";

@@ -1,0 +1,13 @@
+{
+ "completed": true,
+ "decisions": 20,
+ "steps": 200,
+ "outer_total": 3342,
+ "slow_capped_steps": 0,
+ "unstable_steps": 0,
+ "final_factors": {
+  "U": 0.918,
+  "p": 0.4705
+ },
+ "_note": "Smoke run of governor/tutorials/cavityPimple (rules backend, launchSidecar no, sidecar outside the container) on the cluster, OpenFOAM v2312 Apptainer image, governor commit f761371, 2026-09-21 (job oj_govbuild 23869495)."
+}

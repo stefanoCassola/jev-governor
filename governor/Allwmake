@@ -1,0 +1,28 @@
+#!/bin/sh
+cd "${0%/*}" || exit                                # Run from this directory
+: "${WM_PROJECT_DIR:?source the OpenFOAM environment first}"
+#------------------------------------------------------------------------------
+
+# OpenFOAM versions share the object directory name ($WM_OPTIONS). Objects built against another
+# version link without complaint and crash at run time, so clean when the version changed.
+stamp="src/jevGovernor/Make/$WM_OPTIONS/.openfoamVersion"
+if [ -d "src/jevGovernor/Make/$WM_OPTIONS" ] && [ "$(cat "$stamp" 2> /dev/null)" != "$WM_PROJECT_VERSION" ]
+then
+    echo "Objects of another OpenFOAM version found: cleaning first"
+    wclean src/jevGovernor
+fi
+
+wmake $* src/jevGovernor || exit 1
+echo "$WM_PROJECT_VERSION" > "$stamp"
+
+if command -v jev-governor > /dev/null 2>&1
+then
+    echo "jev-governor $(jev-governor --version) found"
+else
+    echo
+    echo "The library is built. Now install the sidecar:"
+    echo "    pip install .            # rules backend only"
+    echo "    pip install '.[jev]'     # with the TypeSafe SDK for the jev backend"
+fi
+
+#------------------------------------------------------------------------------

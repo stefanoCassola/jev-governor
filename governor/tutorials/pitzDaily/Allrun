@@ -1,0 +1,14 @@
+#!/bin/sh
+cd "${0%/*}" || exit                                # Run from this directory
+. ${WM_PROJECT_DIR:?}/bin/tools/RunFunctions        # Tutorial run functions
+#------------------------------------------------------------------------------
+
+# Backend: rules (default, offline) or jev (needs TYPESAFE_API_KEY), e.g.  ./Allrun jev
+[ -n "$1" ] && export JEV_GOVERNOR_BACKEND="$1"
+
+runApplication blockMesh
+runApplication $(getApplication)
+
+jev-governor report --case . -v
+
+#------------------------------------------------------------------------------

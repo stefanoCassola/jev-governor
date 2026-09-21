@@ -1,0 +1,53 @@
+name: CI
+
+on:
+  push:
+    paths: ["governor/**", ".github/workflows/ci.yml"]
+  pull_request:
+    paths: ["governor/**", ".github/workflows/ci.yml"]
+
+# The tool lives in governor/; study/ is data and analysis and is not built here.
+defaults:
+  run:
+    working-directory: governor
+
+jobs:
+  sidecar:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.9", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: pip install -e '.[test]'
+      - run: pytest -q
+
+  openfoam:
+    runs-on: ubuntu-22.04
+    strategy:
+      matrix:
+        openfoam: ["2312", "2406"]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install OpenFOAM v${{ matrix.openfoam }}
+        run: |
+          curl -s https://dl.openfoam.com/add-debian-repo.sh | sudo bash
+          sudo apt-get install -y openfoam${{ matrix.openfoam }}-default
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -e .
+      - name: Build the function object
+        shell: bash
+        run: |
+          source /usr/lib/openfoam/openfoam${{ matrix.openfoam }}/etc/bashrc || true
+          ./Allwmake
+      - name: Integration tests (rules and mock backends, no network)
+        shell: bash
+        run: |
+          source /usr/lib/openfoam/openfoam${{ matrix.openfoam }}/etc/bashrc || true
+          export OMPI_MCA_rmaps_base_oversubscribe=1
+          tests/integration/run_all.sh "$RUNNER_TEMP/itest"

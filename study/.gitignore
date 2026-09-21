@@ -1,0 +1,14 @@
+# secrets
+jev_api_key
+*.key
+.env
+# python
+__pycache__/
+*.pyc
+.venv/
+# large local-only data
+data/fields_3d
+raw/
+data/_records/
+data/_records_t/
+data/_fields/

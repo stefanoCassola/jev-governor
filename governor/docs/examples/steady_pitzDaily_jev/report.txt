@@ -1,0 +1,17 @@
+decisions        11  (judge: jev)
+moves            hold=6, increase_large=3, increase_small=2
+guards           0
+judge latency    mean 0.286 s, max 0.673 s, total 3.2 s
+API retries      0
+upwind at end    False
+       25  increase_small: U 0.700 -> 0.766
+       50  hold: U 0.766 -> 0.766
+       75  increase_small: U 0.766 -> 0.821
+      100  increase_large: U 0.821 -> 0.901
+      125  increase_large: U 0.901 -> 0.948
+      150  hold: U 0.948 -> 0.948
+      175  increase_large: U 0.948 -> 0.950
+      200  hold: U 0.950 -> 0.950
+      225  hold: U 0.950 -> 0.950
+      250  hold: U 0.950 -> 0.950
+      275  hold: U 0.950 -> 0.950

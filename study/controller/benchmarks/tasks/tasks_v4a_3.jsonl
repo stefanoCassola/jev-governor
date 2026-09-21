@@ -1,0 +1,27 @@
+{"template": "lbfs_Re800", "cases": "cases_async", "run": "v4a/lbfs_Re800__default", "args": ["--method", "static", "--end", "20000"]}
+{"template": "lbfs_Re300", "cases": "cases_async", "run": "v4a/lbfs_Re300__jev4_async_r0", "args": ["--method", "jev4", "--interval", "10", "--async", "--end", "20000"]}
+{"template": "lbfs_Re500", "cases": "cases_async", "run": "v4aheld2/lbfs_Re500__jev4ack_async_r0", "args": ["--method", "jev4", "--interval", "10", "--async", "--ack", "--end", "20000"]}
+{"template": "cavity_Re100", "cases": "cases_async", "run": "v4a/cavity_Re100__jev4ack_async_r1", "args": ["--method", "jev4", "--interval", "10", "--async", "--ack", "--end", "20000"]}
+{"template": "cavity_Re400", "cases": "cases_async", "run": "v4a/cavity_Re400__jev4ack_async_r0", "args": ["--method", "jev4", "--interval", "10", "--async", "--ack", "--end", "20000"]}
+{"template": "cavity_Re400", "cases": "cases_async", "run": "v4a/cavity_Re400__jev4_async_r2", "args": ["--method", "jev4", "--interval", "10", "--async", "--end", "20000"]}
+{"template": "cavity_Re1000", "cases": "cases_async", "run": "v4a/cavity_Re1000__jev4_async_r1", "args": ["--method", "jev4", "--interval", "10", "--async", "--end", "20000"]}
+{"template": "pitzDaily", "cases": "cases_async", "run": "v4a/pitzDaily__jev4_async_r0", "args": ["--method", "jev4", "--interval", "10", "--async", "--end", "5000"]}
+{"template": "pm_bfs_U25", "cases": "cases_async", "run": "v4a/pm_bfs_U25__default", "args": ["--method", "static", "--end", "4000"]}
+{"template": "pm_bfs_U25", "cases": "cases_async", "run": "v4a/pm_bfs_U25__jev4ack_async_r2", "args": ["--method", "jev4", "--interval", "10", "--async", "--ack", "--end", "4000"]}
+{"template": "pm_bfs_U44", "cases": "cases_async", "run": "v4a/pm_bfs_U44__jev4ack_async_r1", "args": ["--method", "jev4", "--interval", "10", "--async", "--ack", "--end", "4000"]}
+{"template": "pm_bfs_U50", "cases": "cases_async", "run": "v4a/pm_bfs_U50__jev4ack_async_r0", "args": ["--method", "jev4", "--interval", "10", "--async", "--ack", "--end", "4000"]}
+{"template": "pm_bfs_U50", "cases": "cases_async", "run": "v4a/pm_bfs_U50__jev4_async_r2", "args": ["--method", "jev4", "--interval", "10", "--async", "--end", "4000"]}
+{"template": "pm_bfs_U75", "cases": "cases_async", "run": "v4a/pm_bfs_U75__jev4_async_r1", "args": ["--method", "jev4", "--interval", "10", "--async", "--end", "4000"]}
+{"template": "cavity_Re700", "cases": "cases_async", "run": "v4a/cavity_Re700__jev4_async_r0", "args": ["--method", "jev4", "--interval", "10", "--async", "--end", "20000"]}
+{"template": "pitzDaily_U20", "cases": "cases_async", "run": "v4a/pitzDaily_U20__default", "args": ["--method", "static", "--end", "5000"]}
+{"template": "pitzDaily_U20", "cases": "cases_async", "run": "v4a/pitzDaily_U20__jev4ack_async_r2", "args": ["--method", "jev4", "--interval", "10", "--async", "--ack", "--end", "5000"]}
+{"template": "pm_bfs_U35", "cases": "cases_async", "run": "v4a/pm_bfs_U35__jev4ack_async_r1", "args": ["--method", "jev4", "--interval", "10", "--async", "--ack", "--end", "4000"]}
+{"template": "pm_bfs_U65", "cases": "cases_async", "run": "v4a/pm_bfs_U65__jev4ack_async_r0", "args": ["--method", "jev4", "--interval", "10", "--async", "--ack", "--end", "4000"]}
+{"template": "pm_bfs_U65", "cases": "cases_async", "run": "v4a/pm_bfs_U65__jev4_async_r2", "args": ["--method", "jev4", "--interval", "10", "--async", "--end", "4000"]}
+{"template": "cavity_Re250", "cases": "cases_async", "run": "v4aheld2/cavity_Re250__jev4_async_r1", "args": ["--method", "jev4", "--interval", "10", "--async", "--end", "20000"]}
+{"template": "pitzDaily_U15", "cases": "cases_async", "run": "v4aheld2/pitzDaily_U15__jev4_async_r0", "args": ["--method", "jev4", "--interval", "10", "--async", "--end", "5000"]}
+{"template": "pm_bfs_U30", "cases": "cases_async", "run": "v4aheld2/pm_bfs_U30__default", "args": ["--method", "static", "--end", "4000"]}
+{"template": "pm_bfs_U30", "cases": "cases_async", "run": "v4aheld2/pm_bfs_U30__jev4ack_async_r2", "args": ["--method", "jev4", "--interval", "10", "--async", "--ack", "--end", "4000"]}
+{"template": "pm_bfs_U55", "cases": "cases_async", "run": "v4aheld2/pm_bfs_U55__jev4ack_async_r1", "args": ["--method", "jev4", "--interval", "10", "--async", "--ack", "--end", "4000"]}
+{"template": "pm_bfs_U70", "cases": "cases_async", "run": "v4aheld2/pm_bfs_U70__jev4ack_async_r0", "args": ["--method", "jev4", "--interval", "10", "--async", "--ack", "--end", "4000"]}
+{"template": "pm_bfs_U70", "cases": "cases_async", "run": "v4aheld2/pm_bfs_U70__jev4_async_r2", "args": ["--method", "jev4", "--interval", "10", "--async", "--end", "4000"]}

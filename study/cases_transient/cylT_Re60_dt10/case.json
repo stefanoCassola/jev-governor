@@ -1,0 +1,20 @@
+{
+ "solver": "pimpleFoam",
+ "family": "cylT",
+ "description": "two-dimensional laminar flow past a circular cylinder at a Reynolds number of about 60, started from a uniform field; vortex shedding develops during the run",
+ "context": "Transient incompressible flow: two-dimensional laminar flow past a circular cylinder at a Reynolds number of about 60, started from a uniform field; vortex shedding develops during the run. Solved with OpenFOAM pimpleFoam (PIMPLE algorithm) with a fixed, deliberately large time step (Courant number well above one), so every time step needs several under-relaxed outer pressure-velocity iterations; the outer loop of a step ends when the initial residuals of all equations are below their tolerances, or at a cap of 50 outer iterations. Goal: finish the run with as few outer iterations per time step as possible while every step still meets its tolerances. The momentum (U) under-relaxation factor of the outer iterations acts like a pseudo time step within the time step: larger values (less under-relaxation) give faster convergence of the outer loop up to a stability limit, beyond which the outer loop converges more slowly, erratically or not at all. The pressure factor is set automatically from the momentum factor; only the momentum factor is decided.",
+ "U": 0.7,
+ "p": 0.3,
+ "turb": null,
+ "turb_fields": [],
+ "turb_follow": false,
+ "targets": {
+  "p": 0.0001,
+  "U": 1e-05
+ },
+ "cap": 50,
+ "p_rule": "one_minus",
+ "floor": 3.0,
+ "deltaT": 1.0,
+ "endTime": 300.0
+}

@@ -1,0 +1,12 @@
+{
+ "completed": true,
+ "decisions": 20,
+ "steps": 200,
+ "outer_total": 3313,
+ "slow_capped_steps": 0,
+ "unstable_steps": 0,
+ "final_factors": {
+  "U": 0.9032,
+  "p": 0.4705
+ }
+}

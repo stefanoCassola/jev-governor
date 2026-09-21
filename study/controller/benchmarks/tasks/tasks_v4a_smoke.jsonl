@@ -1,0 +1,2 @@
+{"template": "cavity_Re100", "cases": "cases_async", "run": "v4a_smoke/cavity_Re100__jev4ack_async_r0", "args": ["--method", "jev4", "--interval", "10", "--async", "--ack", "--end", "20000"]}
+{"template": "pm_bfs_U44", "cases": "cases_async", "run": "v4a_smoke/pm_bfs_U44__jev4ack_async_r0", "args": ["--method", "jev4", "--interval", "10", "--async", "--ack", "--end", "4000"]}

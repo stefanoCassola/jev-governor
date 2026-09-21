@@ -1,0 +1,22 @@
+{
+ "solver": "simpleFoam",
+ "algorithm": "SIMPLEC",
+ "regime": "turbulent",
+ "description": "two-dimensional turbulent flow over a backward-facing step with a contraction (pitzDaily), RANS k-epsilon model, inlet velocity 20 m/s",
+ "U": 0.9,
+ "p": 1.0,
+ "turb": 0.9,
+ "turb_fields": [
+  "k",
+  "epsilon"
+ ],
+ "targets": {
+  "p": 0.01,
+  "U": 0.001,
+  "k": 0.001,
+  "epsilon": 0.001
+ },
+ "monitor_re": null,
+ "context": "Steady incompressible turbulent flow: two-dimensional turbulent flow over a backward-facing step with a contraction (pitzDaily), RANS k-epsilon model, inlet velocity 20 m/s. Solved with OpenFOAM simpleFoam using SIMPLEC (consistent) pressure-velocity coupling; with SIMPLEC, pressure under-relaxation factors close to 1 are usually tolerated. The run stops once every equation residual is below its convergence target. Goal: reach convergence in as few iterations as possible without oscillation or divergence. The momentum (U) under-relaxation factor acts like a pseudo time step: larger values give faster progress but less stability. The turbulence equations' factor is moved together with the momentum factor.",
+ "turb_follow": true
+}

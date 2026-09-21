@@ -1,0 +1,22 @@
+{
+ "solver": "simpleFoam",
+ "algorithm": "SIMPLEC",
+ "regime": "turbulent",
+ "description": "two-dimensional turbulent flow over a backward-facing step (Driver and Seegmiller geometry, step height 12.7 mm), RANS k-omega SST model, inlet velocity 50 m/s",
+ "U": 0.5,
+ "p": 0.5,
+ "turb": 0.8,
+ "turb_fields": [
+  "k",
+  "omega"
+ ],
+ "targets": {
+  "p": 0.05,
+  "U": 0.0005,
+  "k": 0.0005,
+  "omega": 0.0005
+ },
+ "monitor_re": null,
+ "context": "Steady incompressible turbulent flow: two-dimensional turbulent flow over a backward-facing step (Driver and Seegmiller geometry, step height 12.7 mm), RANS k-omega SST model, inlet velocity 50 m/s. Solved with OpenFOAM simpleFoam using SIMPLEC (consistent) pressure-velocity coupling; with SIMPLEC, pressure under-relaxation factors close to 1 are usually tolerated. The run stops once every equation residual is below its convergence target. Goal: reach convergence in as few iterations as possible without oscillation or divergence. The momentum (U) under-relaxation factor acts like a pseudo time step: larger values give faster progress but less stability. The turbulence equations' factor is held fixed.",
+ "turb_follow": false
+}

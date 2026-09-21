@@ -1,0 +1,4 @@
+jevGovernor.C
+jevGovernorPimple.C
+
+LIB = $(FOAM_USER_LIBBIN)/libjevGovernor

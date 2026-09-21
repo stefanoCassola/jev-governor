@@ -1,0 +1,47 @@
+// Synchronous hand-off to an external relaxation controller.
+// Every N iterations (N read from sync/interval; 0 or missing = disabled) the solver writes
+// sync/wait_<n>, blocks until sync/go_<n> exists, then re-reads system/fvSolution so the
+// new relaxation factors apply from iteration n+1. Blocking uses sleep, so ExecutionTime
+// (CPU time) is not inflated by the wait.
+jevSync
+{
+    type            coded;
+    libs            (utilityFunctionObjects);
+    name            jevSync;
+    codeInclude
+    #{
+        #include <unistd.h>
+        #include "IFstream.H"
+        #include "OFstream.H"
+    #};
+    codeExecute
+    #{
+        static label interval = -1;
+        const fileName dir = mesh().time().path()/"sync";
+        if (interval < 0)
+        {
+            interval = 0;
+            if (isFile(dir/"interval"))
+            {
+                IFstream is(dir/"interval");
+                is >> interval;
+            }
+            Info<< "jevSync: interval " << interval << endl;
+        }
+        const label n = mesh().time().timeIndex();
+        if (interval > 0 && n % interval == 0)
+        {
+            {
+                OFstream os(dir/("wait_" + Foam::name(n)));
+                os << n << endl;
+            }
+            const fileName go = dir/("go_" + Foam::name(n));
+            while (!isFile(go))
+            {
+                usleep(5000);
+            }
+            const_cast<fvMesh&>(mesh()).fvSolution::read();
+            Info<< "jevSync: resumed at " << n << endl;
+        }
+    #};
+}

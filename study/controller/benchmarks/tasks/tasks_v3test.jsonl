@@ -1,0 +1,8 @@
+{"template": "pm_bfs_U44", "cases": "cases_async", "run": "v3test/pm_bfs_U44__jev3", "args": ["--method", "jev3", "--interval", "10", "--end", "4000"]}
+{"template": "pm_bfs_U44", "cases": "cases_async", "run": "v3test/pm_bfs_U44__heur3", "args": ["--method", "heur3", "--interval", "10", "--end", "4000"]}
+{"template": "lbfs_Re400", "cases": "cases_async", "run": "v3test/lbfs_Re400__jev3", "args": ["--method", "jev3", "--interval", "10", "--end", "20000"]}
+{"template": "lbfs_Re400", "cases": "cases_async", "run": "v3test/lbfs_Re400__heur3", "args": ["--method", "heur3", "--interval", "10", "--end", "20000"]}
+{"template": "cavity_Re1000", "cases": "cases_async", "run": "v3test/cavity_Re1000__jev3", "args": ["--method", "jev3", "--interval", "10", "--end", "20000"]}
+{"template": "cavity_Re1000", "cases": "cases_async", "run": "v3test/cavity_Re1000__heur3", "args": ["--method", "heur3", "--interval", "10", "--end", "20000"]}
+{"template": "cavity_Re100", "cases": "cases_async", "run": "v3test/cavity_Re100__jev3", "args": ["--method", "jev3", "--interval", "10", "--end", "20000"]}
+{"template": "cavity_Re100", "cases": "cases_async", "run": "v3test/cavity_Re100__heur3", "args": ["--method", "heur3", "--interval", "10", "--end", "20000"]}

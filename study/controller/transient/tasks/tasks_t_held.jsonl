@@ -1,0 +1,72 @@
+{"template": "cavT_Re400_dt10", "run": "t_held/cavT_Re400_dt10__heurT", "args": ["--method", "heurT"]}
+{"template": "cavT_Re400_dt10", "run": "t_held/cavT_Re400_dt10__jevT_r0", "args": ["--method", "jevT"]}
+{"template": "cav3T_Re2000_dt15", "run": "t_held/cav3T_Re2000_dt15__jevT_async_r0", "args": ["--method", "jevT", "--async"]}
+{"template": "cavT_Re2500_dt05", "run": "t_held/cavT_Re2500_dt05__jevT_async_r0", "args": ["--method", "jevT", "--async"]}
+{"template": "cav3T_Re400_dt30", "run": "t_held/cav3T_Re400_dt30__heurT", "args": ["--method", "heurT"]}
+{"template": "cylT_Re150_dt05", "run": "t_held/cylT_Re150_dt05__jevT_r0", "args": ["--method", "jevT"]}
+{"template": "cylT_Re60_dt10", "run": "t_held/cylT_Re60_dt10__jevT_async_r2", "args": ["--method", "jevT", "--async"]}
+{"template": "cylT_Re150_dt05", "run": "t_held/cylT_Re150_dt05__heurT_async", "args": ["--method", "heurT", "--async"]}
+{"template": "pitzT_U5_dt2", "run": "t_held/pitzT_U5_dt2__jevT_r1", "args": ["--method", "jevT"]}
+{"template": "cav3T_Re400_dt30", "run": "t_held/cav3T_Re400_dt30__jevT_r1", "args": ["--method", "jevT"]}
+{"template": "cylT_Re150_dt05", "run": "t_held/cylT_Re150_dt05__default", "args": ["--method", "static"]}
+{"template": "cav3T_Re2000_dt15", "run": "t_held/cav3T_Re2000_dt15__jevT_async_r2", "args": ["--method", "jevT", "--async"]}
+{"template": "cav3T_Re400_dt30", "run": "t_held/cav3T_Re400_dt30__jevT_r2", "args": ["--method", "jevT"]}
+{"template": "pitzT_U20_dt1", "run": "t_held/pitzT_U20_dt1__jevT_r2", "args": ["--method", "jevT"]}
+{"template": "cylT_Re60_dt10", "run": "t_held/cylT_Re60_dt10__jevT_r2", "args": ["--method", "jevT"]}
+{"template": "cavT_Re2500_dt05", "run": "t_held/cavT_Re2500_dt05__jevT_async_r2", "args": ["--method", "jevT", "--async"]}
+{"template": "cav3T_Re2000_dt15", "run": "t_held/cav3T_Re2000_dt15__heurT_async", "args": ["--method", "heurT", "--async"]}
+{"template": "cylT_Re60_dt10", "run": "t_held/cylT_Re60_dt10__jevT_r1", "args": ["--method", "jevT"]}
+{"template": "cavT_Re400_dt10", "run": "t_held/cavT_Re400_dt10__default", "args": ["--method", "static"]}
+{"template": "cav3T_Re400_dt30", "run": "t_held/cav3T_Re400_dt30__heurT_async", "args": ["--method", "heurT", "--async"]}
+{"template": "cylT_Re150_dt05", "run": "t_held/cylT_Re150_dt05__heurT", "args": ["--method", "heurT"]}
+{"template": "pitzT_U20_dt1", "run": "t_held/pitzT_U20_dt1__jevT_r1", "args": ["--method", "jevT"]}
+{"template": "pitzT_U5_dt2", "run": "t_held/pitzT_U5_dt2__jevT_async_r1", "args": ["--method", "jevT", "--async"]}
+{"template": "cylT_Re60_dt10", "run": "t_held/cylT_Re60_dt10__heurT", "args": ["--method", "heurT"]}
+{"template": "pitzT_U5_dt2", "run": "t_held/pitzT_U5_dt2__jevT_async_r0", "args": ["--method", "jevT", "--async"]}
+{"template": "cylT_Re150_dt05", "run": "t_held/cylT_Re150_dt05__jevT_async_r0", "args": ["--method", "jevT", "--async"]}
+{"template": "pitzT_U5_dt2", "run": "t_held/pitzT_U5_dt2__heurT", "args": ["--method", "heurT"]}
+{"template": "cylT_Re60_dt10", "run": "t_held/cylT_Re60_dt10__jevT_async_r0", "args": ["--method", "jevT", "--async"]}
+{"template": "cav3T_Re2000_dt15", "run": "t_held/cav3T_Re2000_dt15__jevT_r0", "args": ["--method", "jevT"]}
+{"template": "cylT_Re150_dt05", "run": "t_held/cylT_Re150_dt05__jevT_async_r2", "args": ["--method", "jevT", "--async"]}
+{"template": "pitzT_U20_dt1", "run": "t_held/pitzT_U20_dt1__jevT_async_r1", "args": ["--method", "jevT", "--async"]}
+{"template": "cavT_Re2500_dt05", "run": "t_held/cavT_Re2500_dt05__jevT_r2", "args": ["--method", "jevT"]}
+{"template": "cav3T_Re2000_dt15", "run": "t_held/cav3T_Re2000_dt15__jevT_r1", "args": ["--method", "jevT"]}
+{"template": "cavT_Re2500_dt05", "run": "t_held/cavT_Re2500_dt05__jevT_async_r1", "args": ["--method", "jevT", "--async"]}
+{"template": "cylT_Re60_dt10", "run": "t_held/cylT_Re60_dt10__heurT_async", "args": ["--method", "heurT", "--async"]}
+{"template": "cylT_Re60_dt10", "run": "t_held/cylT_Re60_dt10__jevT_r0", "args": ["--method", "jevT"]}
+{"template": "cavT_Re400_dt10", "run": "t_held/cavT_Re400_dt10__jevT_async_r1", "args": ["--method", "jevT", "--async"]}
+{"template": "cav3T_Re2000_dt15", "run": "t_held/cav3T_Re2000_dt15__default", "args": ["--method", "static"]}
+{"template": "cav3T_Re2000_dt15", "run": "t_held/cav3T_Re2000_dt15__jevT_r2", "args": ["--method", "jevT"]}
+{"template": "pitzT_U5_dt2", "run": "t_held/pitzT_U5_dt2__jevT_r0", "args": ["--method", "jevT"]}
+{"template": "cavT_Re400_dt10", "run": "t_held/cavT_Re400_dt10__jevT_r2", "args": ["--method", "jevT"]}
+{"template": "pitzT_U20_dt1", "run": "t_held/pitzT_U20_dt1__heurT", "args": ["--method", "heurT"]}
+{"template": "pitzT_U5_dt2", "run": "t_held/pitzT_U5_dt2__jevT_r2", "args": ["--method", "jevT"]}
+{"template": "cavT_Re2500_dt05", "run": "t_held/cavT_Re2500_dt05__heurT_async", "args": ["--method", "heurT", "--async"]}
+{"template": "cav3T_Re2000_dt15", "run": "t_held/cav3T_Re2000_dt15__heurT", "args": ["--method", "heurT"]}
+{"template": "cav3T_Re400_dt30", "run": "t_held/cav3T_Re400_dt30__jevT_r0", "args": ["--method", "jevT"]}
+{"template": "pitzT_U20_dt1", "run": "t_held/pitzT_U20_dt1__heurT_async", "args": ["--method", "heurT", "--async"]}
+{"template": "cylT_Re150_dt05", "run": "t_held/cylT_Re150_dt05__jevT_async_r1", "args": ["--method", "jevT", "--async"]}
+{"template": "pitzT_U5_dt2", "run": "t_held/pitzT_U5_dt2__heurT_async", "args": ["--method", "heurT", "--async"]}
+{"template": "cavT_Re2500_dt05", "run": "t_held/cavT_Re2500_dt05__jevT_r1", "args": ["--method", "jevT"]}
+{"template": "cav3T_Re400_dt30", "run": "t_held/cav3T_Re400_dt30__jevT_async_r1", "args": ["--method", "jevT", "--async"]}
+{"template": "pitzT_U5_dt2", "run": "t_held/pitzT_U5_dt2__default", "args": ["--method", "static"]}
+{"template": "cavT_Re400_dt10", "run": "t_held/cavT_Re400_dt10__jevT_async_r2", "args": ["--method", "jevT", "--async"]}
+{"template": "cavT_Re400_dt10", "run": "t_held/cavT_Re400_dt10__heurT_async", "args": ["--method", "heurT", "--async"]}
+{"template": "cylT_Re150_dt05", "run": "t_held/cylT_Re150_dt05__jevT_r1", "args": ["--method", "jevT"]}
+{"template": "pitzT_U20_dt1", "run": "t_held/pitzT_U20_dt1__jevT_async_r0", "args": ["--method", "jevT", "--async"]}
+{"template": "cylT_Re150_dt05", "run": "t_held/cylT_Re150_dt05__jevT_r2", "args": ["--method", "jevT"]}
+{"template": "cavT_Re400_dt10", "run": "t_held/cavT_Re400_dt10__jevT_r1", "args": ["--method", "jevT"]}
+{"template": "pitzT_U5_dt2", "run": "t_held/pitzT_U5_dt2__jevT_async_r2", "args": ["--method", "jevT", "--async"]}
+{"template": "cavT_Re400_dt10", "run": "t_held/cavT_Re400_dt10__jevT_async_r0", "args": ["--method", "jevT", "--async"]}
+{"template": "pitzT_U20_dt1", "run": "t_held/pitzT_U20_dt1__jevT_r0", "args": ["--method", "jevT"]}
+{"template": "cav3T_Re400_dt30", "run": "t_held/cav3T_Re400_dt30__jevT_async_r2", "args": ["--method", "jevT", "--async"]}
+{"template": "cylT_Re60_dt10", "run": "t_held/cylT_Re60_dt10__jevT_async_r1", "args": ["--method", "jevT", "--async"]}
+{"template": "cav3T_Re400_dt30", "run": "t_held/cav3T_Re400_dt30__default", "args": ["--method", "static"]}
+{"template": "cav3T_Re400_dt30", "run": "t_held/cav3T_Re400_dt30__jevT_async_r0", "args": ["--method", "jevT", "--async"]}
+{"template": "cylT_Re60_dt10", "run": "t_held/cylT_Re60_dt10__default", "args": ["--method", "static"]}
+{"template": "cavT_Re2500_dt05", "run": "t_held/cavT_Re2500_dt05__default", "args": ["--method", "static"]}
+{"template": "cavT_Re2500_dt05", "run": "t_held/cavT_Re2500_dt05__jevT_r0", "args": ["--method", "jevT"]}
+{"template": "cavT_Re2500_dt05", "run": "t_held/cavT_Re2500_dt05__heurT", "args": ["--method", "heurT"]}
+{"template": "pitzT_U20_dt1", "run": "t_held/pitzT_U20_dt1__default", "args": ["--method", "static"]}
+{"template": "cav3T_Re2000_dt15", "run": "t_held/cav3T_Re2000_dt15__jevT_async_r1", "args": ["--method", "jevT", "--async"]}
+{"template": "pitzT_U20_dt1", "run": "t_held/pitzT_U20_dt1__jevT_async_r2", "args": ["--method", "jevT", "--async"]}

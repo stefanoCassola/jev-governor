@@ -1,0 +1,55 @@
+{"template": "cavity_Re100", "run": "v2/cavity_Re100__heuristic", "args": ["--method", "heuristic", "--interval", "10", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "v2/cavity_Re100__heuristic_low", "args": ["--method", "heuristic", "--interval", "10", "--relax", "0.5", "0.2", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "v2/cavity_Re100__jev_r0", "args": ["--method", "jev", "--interval", "10", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "v2/cavity_Re100__jev_r1", "args": ["--method", "jev", "--interval", "10", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "v2/cavity_Re100__jev_r2", "args": ["--method", "jev", "--interval", "10", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "v2/cavity_Re100__jev_i5", "args": ["--method", "jev", "--interval", "5", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "v2/cavity_Re100__jev_i20", "args": ["--method", "jev", "--interval", "20", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "v2/cavity_Re100__jev_i50", "args": ["--method", "jev", "--interval", "50", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "v2/cavity_Re100__jev_s0.5", "args": ["--method", "jev", "--interval", "10", "--scale", "0.5", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "v2/cavity_Re100__jev_low", "args": ["--method", "jev", "--interval", "10", "--relax", "0.5", "0.2", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re100", "run": "v2/cavity_Re100__jev_nounst", "args": ["--method", "jev", "--interval", "10", "--no-unstable", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "v2/cavity_Re400__heuristic", "args": ["--method", "heuristic", "--interval", "10", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "v2/cavity_Re400__heuristic_low", "args": ["--method", "heuristic", "--interval", "10", "--relax", "0.5", "0.2", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "v2/cavity_Re400__jev_r0", "args": ["--method", "jev", "--interval", "10", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "v2/cavity_Re400__jev_r1", "args": ["--method", "jev", "--interval", "10", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "v2/cavity_Re400__jev_r2", "args": ["--method", "jev", "--interval", "10", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "v2/cavity_Re400__jev_i5", "args": ["--method", "jev", "--interval", "5", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "v2/cavity_Re400__jev_i20", "args": ["--method", "jev", "--interval", "20", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "v2/cavity_Re400__jev_i50", "args": ["--method", "jev", "--interval", "50", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "v2/cavity_Re400__jev_s0.5", "args": ["--method", "jev", "--interval", "10", "--scale", "0.5", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "v2/cavity_Re400__jev_low", "args": ["--method", "jev", "--interval", "10", "--relax", "0.5", "0.2", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re400", "run": "v2/cavity_Re400__jev_nounst", "args": ["--method", "jev", "--interval", "10", "--no-unstable", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "v2/cavity_Re1000__heuristic", "args": ["--method", "heuristic", "--interval", "10", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "v2/cavity_Re1000__heuristic_low", "args": ["--method", "heuristic", "--interval", "10", "--relax", "0.5", "0.2", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "v2/cavity_Re1000__jev_r0", "args": ["--method", "jev", "--interval", "10", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "v2/cavity_Re1000__jev_r1", "args": ["--method", "jev", "--interval", "10", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "v2/cavity_Re1000__jev_r2", "args": ["--method", "jev", "--interval", "10", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "v2/cavity_Re1000__jev_i5", "args": ["--method", "jev", "--interval", "5", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "v2/cavity_Re1000__jev_i20", "args": ["--method", "jev", "--interval", "20", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "v2/cavity_Re1000__jev_i50", "args": ["--method", "jev", "--interval", "50", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "v2/cavity_Re1000__jev_s0.5", "args": ["--method", "jev", "--interval", "10", "--scale", "0.5", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "v2/cavity_Re1000__jev_low", "args": ["--method", "jev", "--interval", "10", "--relax", "0.5", "0.2", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re1000", "run": "v2/cavity_Re1000__jev_nounst", "args": ["--method", "jev", "--interval", "10", "--no-unstable", "--pcouple", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "v2/lbfs_Re400__heuristic", "args": ["--method", "heuristic", "--interval", "10", "--pcouple", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "v2/lbfs_Re400__heuristic_low", "args": ["--method", "heuristic", "--interval", "10", "--relax", "0.5", "0.2", "--pcouple", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "v2/lbfs_Re400__jev_r0", "args": ["--method", "jev", "--interval", "10", "--pcouple", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "v2/lbfs_Re400__jev_r1", "args": ["--method", "jev", "--interval", "10", "--pcouple", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "v2/lbfs_Re400__jev_r2", "args": ["--method", "jev", "--interval", "10", "--pcouple", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "v2/lbfs_Re400__jev_i5", "args": ["--method", "jev", "--interval", "5", "--pcouple", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "v2/lbfs_Re400__jev_i20", "args": ["--method", "jev", "--interval", "20", "--pcouple", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "v2/lbfs_Re400__jev_i50", "args": ["--method", "jev", "--interval", "50", "--pcouple", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "v2/lbfs_Re400__jev_s0.5", "args": ["--method", "jev", "--interval", "10", "--scale", "0.5", "--pcouple", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "v2/lbfs_Re400__jev_low", "args": ["--method", "jev", "--interval", "10", "--relax", "0.5", "0.2", "--pcouple", "--end", "20000"]}
+{"template": "lbfs_Re400", "run": "v2/lbfs_Re400__jev_nounst", "args": ["--method", "jev", "--interval", "10", "--no-unstable", "--pcouple", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "v2/lbfs_Re800__heuristic", "args": ["--method", "heuristic", "--interval", "10", "--pcouple", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "v2/lbfs_Re800__heuristic_low", "args": ["--method", "heuristic", "--interval", "10", "--relax", "0.5", "0.2", "--pcouple", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "v2/lbfs_Re800__jev_r0", "args": ["--method", "jev", "--interval", "10", "--pcouple", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "v2/lbfs_Re800__jev_r1", "args": ["--method", "jev", "--interval", "10", "--pcouple", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "v2/lbfs_Re800__jev_r2", "args": ["--method", "jev", "--interval", "10", "--pcouple", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "v2/lbfs_Re800__jev_i5", "args": ["--method", "jev", "--interval", "5", "--pcouple", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "v2/lbfs_Re800__jev_i20", "args": ["--method", "jev", "--interval", "20", "--pcouple", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "v2/lbfs_Re800__jev_i50", "args": ["--method", "jev", "--interval", "50", "--pcouple", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "v2/lbfs_Re800__jev_s0.5", "args": ["--method", "jev", "--interval", "10", "--scale", "0.5", "--pcouple", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "v2/lbfs_Re800__jev_low", "args": ["--method", "jev", "--interval", "10", "--relax", "0.5", "0.2", "--pcouple", "--end", "20000"]}
+{"template": "lbfs_Re800", "run": "v2/lbfs_Re800__jev_nounst", "args": ["--method", "jev", "--interval", "10", "--no-unstable", "--pcouple", "--end", "20000"]}

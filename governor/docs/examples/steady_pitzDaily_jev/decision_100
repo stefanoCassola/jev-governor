@@ -1,0 +1,13 @@
+iteration       100;
+relaxationFactors
+{
+    equations
+    {
+        U               0.9015;
+        k               0.9015;
+        epsilon         0.9015;
+    }
+}
+upwind          false;
+stop            false;
+note            "increase_large: U 0.821 -> 0.901";

@@ -1,0 +1,110 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v2312                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      controlDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+application     pimpleFoam;
+
+startFrom       startTime;
+
+startTime       0;
+
+stopAt          endTime;
+
+endTime         20;
+
+deltaT          0.1;
+
+writeControl    timeStep;
+
+writeInterval   1000000;
+
+purgeWrite      0;
+
+writeFormat     ascii;
+
+writePrecision  10;
+
+writeCompression off;
+
+timeFormat      general;
+
+timePrecision   6;
+
+runTimeModifiable false;
+
+
+
+
+
+adjustTimeStep  no;
+
+functions
+{
+// Synchronous hand-off to an external relaxation controller.
+// Every N iterations (N read from sync/interval; 0 or missing = disabled) the solver writes
+// sync/wait_<n>, blocks until sync/go_<n> exists, then re-reads system/fvSolution so the
+// new relaxation factors apply from iteration n+1. Blocking uses sleep, so ExecutionTime
+// (CPU time) is not inflated by the wait.
+// Asynchronous mode (sync/async exists): never blocks; whenever the controller has written
+// new factors and created sync/update, fvSolution is re-read at the end of that iteration.
+jevSync
+{
+    type            coded;
+    libs            (utilityFunctionObjects);
+    name            jevSync;
+    codeInclude
+    #{
+        #include <unistd.h>
+        #include "IFstream.H"
+        #include "OFstream.H"
+    #};
+    codeExecute
+    #{
+        static label interval = -1;
+        const fileName dir = mesh().time().path()/"sync";
+        if (interval < 0)
+        {
+            interval = 0;
+            if (isFile(dir/"interval"))
+            {
+                IFstream is(dir/"interval");
+                is >> interval;
+            }
+            Info<< "jevSync: interval " << interval << endl;
+        }
+        const label n = mesh().time().timeIndex();
+        if (isFile(dir/"update"))
+        {
+            rm(dir/"update");
+            const_cast<fvMesh&>(mesh()).fvSolution::read();
+            Info<< "jevSync: async re-read at " << n << endl;
+        }
+        if (interval > 0 && n % interval == 0)
+        {
+            {
+                OFstream os(dir/("wait_" + Foam::name(n)));
+                os << n << endl;
+            }
+            const fileName go = dir/("go_" + Foam::name(n));
+            while (!isFile(go))
+            {
+                usleep(5000);
+            }
+            const_cast<fvMesh&>(mesh()).fvSolution::read();
+            Info<< "jevSync: resumed at " << n << endl;
+        }
+    #};
+}
+}

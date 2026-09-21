@@ -1,0 +1,17 @@
+{"template": "pm_bfs_U25", "cases": "cases_async", "run": "ref2/pm_bfs_U25__ref2", "args": ["--method", "static", "--relax", "0.98", "0.9", "--tight", "1e-3", "--end", "16000"]}
+{"template": "pm_bfs_U30", "cases": "cases_async", "run": "ref2/pm_bfs_U30__ref2", "args": ["--method", "static", "--relax", "0.98", "0.9", "--tight", "1e-3", "--end", "16000"]}
+{"template": "pm_bfs_U35", "cases": "cases_async", "run": "ref2/pm_bfs_U35__ref2", "args": ["--method", "static", "--relax", "0.98", "0.9", "--tight", "1e-3", "--end", "16000"]}
+{"template": "pm_bfs_U44", "cases": "cases_async", "run": "ref2/pm_bfs_U44__ref2", "args": ["--method", "static", "--relax", "0.98", "0.9", "--tight", "1e-3", "--end", "16000"]}
+{"template": "pm_bfs_U50", "cases": "cases_async", "run": "ref2/pm_bfs_U50__ref2", "args": ["--method", "static", "--relax", "0.98", "0.9", "--tight", "1e-3", "--end", "16000"]}
+{"template": "pm_bfs_U55", "cases": "cases_async", "run": "ref2/pm_bfs_U55__ref2", "args": ["--method", "static", "--relax", "0.98", "0.9", "--tight", "1e-3", "--end", "16000"]}
+{"template": "pm_bfs_U65", "cases": "cases_async", "run": "ref2/pm_bfs_U65__ref2", "args": ["--method", "static", "--relax", "0.98", "0.9", "--tight", "1e-3", "--end", "16000"]}
+{"template": "pm_bfs_U70", "cases": "cases_async", "run": "ref2/pm_bfs_U70__ref2", "args": ["--method", "static", "--relax", "0.98", "0.9", "--tight", "1e-3", "--end", "16000"]}
+{"template": "pm_bfs_U75", "cases": "cases_async", "run": "ref2/pm_bfs_U75__ref2", "args": ["--method", "static", "--relax", "0.98", "0.9", "--tight", "1e-3", "--end", "16000"]}
+{"template": "pm_bfs_U25", "cases": "cases_async", "run": "ref2/pm_bfs_U25__ref2b", "args": ["--method", "static", "--relax", "0.95", "1.0", "--tight", "1e-3", "--end", "16000"]}
+{"template": "pm_bfs_U50", "cases": "cases_async", "run": "ref2/pm_bfs_U50__ref2b", "args": ["--method", "static", "--relax", "0.95", "1.0", "--tight", "1e-3", "--end", "16000"]}
+{"template": "pm_bfs_U75", "cases": "cases_async", "run": "ref2/pm_bfs_U75__ref2b", "args": ["--method", "static", "--relax", "0.95", "1.0", "--tight", "1e-3", "--end", "16000"]}
+{"template": "pitzDaily", "cases": "cases_async", "run": "ref2/pitzDaily__ref2", "args": ["--method", "static", "--relax", "0.95", "1.0", "--tight", "1e-3", "--end", "20000"]}
+{"template": "pitzDaily_U15", "cases": "cases_async", "run": "ref2/pitzDaily_U15__ref2", "args": ["--method", "static", "--relax", "0.95", "1.0", "--tight", "1e-3", "--end", "20000"]}
+{"template": "pitzDaily_U20", "cases": "cases_async", "run": "ref2/pitzDaily_U20__ref2", "args": ["--method", "static", "--relax", "0.95", "1.0", "--tight", "1e-3", "--end", "20000"]}
+{"template": "pitzDaily", "cases": "cases_async", "run": "ref2/pitzDaily__ref2b", "args": ["--method", "static", "--relax", "0.8", "0.9", "--tight", "1e-3", "--end", "20000"]}
+{"template": "lbfs_Re800", "cases": "cases_async", "run": "ref2/lbfs_Re800__ref2", "args": ["--method", "static", "--relax", "0.8", "0.3", "--tight", "1e-3", "--end", "80000"]}

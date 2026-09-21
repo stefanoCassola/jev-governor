@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software or its benchmark data, please cite it as below."
+title: "jevGovernor: in-loop control of under-relaxation in OpenFOAM, with the benchmark study that tested it"
+authors:
+  - family-names: Cassola
+    given-names: Stefano
+type: software
+version: 0.3.1
+date-released: 2026-09-21
+license: GPL-3.0-or-later
+repository-code: "https://github.com/stefanoCassola/jev-governor"
+keywords:
+  - OpenFOAM
+  - under-relaxation
+  - SIMPLE
+  - PIMPLE
+  - runtime control
+  - judgment model

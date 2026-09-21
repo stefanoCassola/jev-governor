@@ -1,0 +1,50 @@
+{"template": "cavity_Re100", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/cavity_Re100__jev_async_r0", "args": ["--method", "jev", "--interval", "10", "--async", "--pcouple", "--end", "20000"]}
+{"template": "lbfs_Re400", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/lbfs_Re400__default", "args": ["--method", "static", "--end", "20000"]}
+{"template": "pm_bfs_U75", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/pm_bfs_U75__jev_async_r0", "args": ["--method", "jev", "--interval", "10", "--async", "--end", "4000"]}
+{"template": "cavity_Re400", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/cavity_Re400__jev_async_r2", "args": ["--method", "jev", "--interval", "10", "--async", "--pcouple", "--end", "20000"]}
+{"template": "lbfs_Re800", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/lbfs_Re800__jev_sync", "args": ["--method", "jev", "--interval", "10", "--pcouple", "--end", "20000"]}
+{"template": "pitzDaily", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/pitzDaily__jev_async_r2", "args": ["--method", "jev", "--interval", "10", "--async", "--end", "5000"]}
+{"template": "pm_bfs_U75", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/pm_bfs_U75__jev_async_r1", "args": ["--method", "jev", "--interval", "10", "--async", "--end", "4000"]}
+{"template": "cavity_Re400", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/cavity_Re400__default", "args": ["--method", "static", "--end", "20000"]}
+{"template": "pm_bfs_U75", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/pm_bfs_U75__jev_sync", "args": ["--method", "jev", "--interval", "10", "--end", "4000"]}
+{"template": "cavity_Re1000", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/cavity_Re1000__jev_async_r2", "args": ["--method", "jev", "--interval", "10", "--async", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re1000", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/cavity_Re1000__jev_sync", "args": ["--method", "jev", "--interval", "10", "--pcouple", "--end", "20000"]}
+{"template": "pm_bfs_U25", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/pm_bfs_U25__jev_async_r0", "args": ["--method", "jev", "--interval", "10", "--async", "--end", "4000"]}
+{"template": "pm_bfs_U25", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/pm_bfs_U25__jev_async_r2", "args": ["--method", "jev", "--interval", "10", "--async", "--end", "4000"]}
+{"template": "pitzDaily", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/pitzDaily__jev_sync", "args": ["--method", "jev", "--interval", "10", "--end", "5000"]}
+{"template": "pm_bfs_U75", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/pm_bfs_U75__jev_async_r2", "args": ["--method", "jev", "--interval", "10", "--async", "--end", "4000"]}
+{"template": "lbfs_Re400", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/lbfs_Re400__jev_async_r2", "args": ["--method", "jev", "--interval", "10", "--async", "--pcouple", "--end", "20000"]}
+{"template": "pm_bfs_U44", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/pm_bfs_U44__jev_async_r2", "args": ["--method", "jev", "--interval", "10", "--async", "--end", "4000"]}
+{"template": "pm_bfs_U44", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/pm_bfs_U44__jev_async_r1", "args": ["--method", "jev", "--interval", "10", "--async", "--end", "4000"]}
+{"template": "cavity_Re1000", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/cavity_Re1000__jev_async_r0", "args": ["--method", "jev", "--interval", "10", "--async", "--pcouple", "--end", "20000"]}
+{"template": "lbfs_Re800", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/lbfs_Re800__jev_async_r0", "args": ["--method", "jev", "--interval", "10", "--async", "--pcouple", "--end", "20000"]}
+{"template": "pm_bfs_U44", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/pm_bfs_U44__jev_async_r0", "args": ["--method", "jev", "--interval", "10", "--async", "--end", "4000"]}
+{"template": "lbfs_Re800", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/lbfs_Re800__default", "args": ["--method", "static", "--end", "20000"]}
+{"template": "pm_bfs_U50", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/pm_bfs_U50__jev_async_r0", "args": ["--method", "jev", "--interval", "10", "--async", "--end", "4000"]}
+{"template": "pm_bfs_U44", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/pm_bfs_U44__default", "args": ["--method", "static", "--end", "4000"]}
+{"template": "pm_bfs_U25", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/pm_bfs_U25__jev_async_r1", "args": ["--method", "jev", "--interval", "10", "--async", "--end", "4000"]}
+{"template": "cavity_Re1000", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/cavity_Re1000__default", "args": ["--method", "static", "--end", "20000"]}
+{"template": "cavity_Re100", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/cavity_Re100__jev_async_r1", "args": ["--method", "jev", "--interval", "10", "--async", "--pcouple", "--end", "20000"]}
+{"template": "lbfs_Re400", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/lbfs_Re400__jev_async_r1", "args": ["--method", "jev", "--interval", "10", "--async", "--pcouple", "--end", "20000"]}
+{"template": "pm_bfs_U75", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/pm_bfs_U75__default", "args": ["--method", "static", "--end", "4000"]}
+{"template": "pitzDaily", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/pitzDaily__default", "args": ["--method", "static", "--end", "5000"]}
+{"template": "lbfs_Re800", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/lbfs_Re800__jev_async_r1", "args": ["--method", "jev", "--interval", "10", "--async", "--pcouple", "--end", "20000"]}
+{"template": "lbfs_Re400", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/lbfs_Re400__jev_async_r0", "args": ["--method", "jev", "--interval", "10", "--async", "--pcouple", "--end", "20000"]}
+{"template": "pm_bfs_U50", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/pm_bfs_U50__jev_async_r1", "args": ["--method", "jev", "--interval", "10", "--async", "--end", "4000"]}
+{"template": "cavity_Re100", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/cavity_Re100__default", "args": ["--method", "static", "--end", "20000"]}
+{"template": "pitzDaily", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/pitzDaily__jev_async_r0", "args": ["--method", "jev", "--interval", "10", "--async", "--end", "5000"]}
+{"template": "pm_bfs_U50", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/pm_bfs_U50__default", "args": ["--method", "static", "--end", "4000"]}
+{"template": "cavity_Re100", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/cavity_Re100__jev_sync", "args": ["--method", "jev", "--interval", "10", "--pcouple", "--end", "20000"]}
+{"template": "pm_bfs_U50", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/pm_bfs_U50__jev_async_r2", "args": ["--method", "jev", "--interval", "10", "--async", "--end", "4000"]}
+{"template": "cavity_Re400", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/cavity_Re400__jev_sync", "args": ["--method", "jev", "--interval", "10", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re1000", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/cavity_Re1000__jev_async_r1", "args": ["--method", "jev", "--interval", "10", "--async", "--pcouple", "--end", "20000"]}
+{"template": "lbfs_Re800", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/lbfs_Re800__jev_async_r2", "args": ["--method", "jev", "--interval", "10", "--async", "--pcouple", "--end", "20000"]}
+{"template": "pm_bfs_U50", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/pm_bfs_U50__jev_sync", "args": ["--method", "jev", "--interval", "10", "--end", "4000"]}
+{"template": "pm_bfs_U25", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/pm_bfs_U25__default", "args": ["--method", "static", "--end", "4000"]}
+{"template": "pitzDaily", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/pitzDaily__jev_async_r1", "args": ["--method", "jev", "--interval", "10", "--async", "--end", "5000"]}
+{"template": "pm_bfs_U25", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/pm_bfs_U25__jev_sync", "args": ["--method", "jev", "--interval", "10", "--end", "4000"]}
+{"template": "cavity_Re400", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/cavity_Re400__jev_async_r0", "args": ["--method", "jev", "--interval", "10", "--async", "--pcouple", "--end", "20000"]}
+{"template": "lbfs_Re400", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/lbfs_Re400__jev_sync", "args": ["--method", "jev", "--interval", "10", "--pcouple", "--end", "20000"]}
+{"template": "cavity_Re100", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/cavity_Re100__jev_async_r2", "args": ["--method", "jev", "--interval", "10", "--async", "--pcouple", "--end", "20000"]}
+{"template": "pm_bfs_U44", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/pm_bfs_U44__jev_sync", "args": ["--method", "jev", "--interval", "10", "--end", "4000"]}
+{"template": "cavity_Re400", "cases": "cases_async", "script": "relaxctl_new.py", "run": "async/cavity_Re400__jev_async_r1", "args": ["--method", "jev", "--interval", "10", "--async", "--pcouple", "--end", "20000"]}

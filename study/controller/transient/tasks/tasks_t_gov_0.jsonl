@@ -1,0 +1,64 @@
+{"template": "pitzT_U20_dt1", "run": "t_gov/pitzT_U20_dt1__govJev_r1", "script": "govbench.py", "args": ["--backend", "jev"]}
+{"template": "cavT_Re1000_dt10", "run": "t_gov/cavT_Re1000_dt10__govJev_async_r2", "script": "govbench.py", "args": ["--backend", "jev", "--async"]}
+{"template": "cavT_Re1000_dt05", "run": "t_gov/cavT_Re1000_dt05__govJev_r0", "script": "govbench.py", "args": ["--backend", "jev"]}
+{"template": "pitzT_U10_dt2", "run": "t_gov/pitzT_U10_dt2__govJev_r2", "script": "govbench.py", "args": ["--backend", "jev"]}
+{"template": "pitzT_U5_dt2", "run": "t_gov/pitzT_U5_dt2__govJev_r1", "script": "govbench.py", "args": ["--backend", "jev"]}
+{"template": "cavT_Re1000_dt10", "run": "t_gov/cavT_Re1000_dt10__govJev_async_r0", "script": "govbench.py", "args": ["--backend", "jev", "--async"]}
+{"template": "cavT_Re1000_dt10", "run": "t_gov/cavT_Re1000_dt10__govJev_r2", "script": "govbench.py", "args": ["--backend", "jev"]}
+{"template": "cylT_Re100_dt05", "run": "t_gov/cylT_Re100_dt05__govJev_async_r0", "script": "govbench.py", "args": ["--backend", "jev", "--async"]}
+{"template": "cav3T_Re2000_dt15", "run": "t_gov/cav3T_Re2000_dt15__govJev_r1", "script": "govbench.py", "args": ["--backend", "jev"]}
+{"template": "cav3T_Re400_dt30", "run": "t_gov/cav3T_Re400_dt30__govJev_r1", "script": "govbench.py", "args": ["--backend", "jev"]}
+{"template": "pitzT_U10_dt2", "run": "t_gov/pitzT_U10_dt2__govJev_async_r1", "script": "govbench.py", "args": ["--backend", "jev", "--async"]}
+{"template": "pitzT_U10_dt2", "run": "t_gov/pitzT_U10_dt2__govJev_async_r0", "script": "govbench.py", "args": ["--backend", "jev", "--async"]}
+{"template": "cav3T_Re1000_dt30", "run": "t_gov/cav3T_Re1000_dt30__govJev_async_r2", "script": "govbench.py", "args": ["--backend", "jev", "--async"]}
+{"template": "cav3T_Re2000_dt15", "run": "t_gov/cav3T_Re2000_dt15__govJev_async_r1", "script": "govbench.py", "args": ["--backend", "jev", "--async"]}
+{"template": "cavT_Re1000_dt05", "run": "t_gov/cavT_Re1000_dt05__default", "args": ["--method", "static"]}
+{"template": "cav3T_Re1000_dt30", "run": "t_gov/cav3T_Re1000_dt30__govJev_r1", "script": "govbench.py", "args": ["--backend", "jev"]}
+{"template": "cylT_Re100_dt05", "run": "t_gov/cylT_Re100_dt05__govJev_async_r1", "script": "govbench.py", "args": ["--backend", "jev", "--async"]}
+{"template": "cav3T_Re2000_dt15", "run": "t_gov/cav3T_Re2000_dt15__govRules", "script": "govbench.py", "args": ["--backend", "rules"]}
+{"template": "cav3T_Re1000_dt30", "run": "t_gov/cav3T_Re1000_dt30__govJev_r2", "script": "govbench.py", "args": ["--backend", "jev"]}
+{"template": "cavT_Re1000_dt05", "run": "t_gov/cavT_Re1000_dt05__govJev_async_r2", "script": "govbench.py", "args": ["--backend", "jev", "--async"]}
+{"template": "cavT_Re2500_dt05", "run": "t_gov/cavT_Re2500_dt05__govJev_async_r2", "script": "govbench.py", "args": ["--backend", "jev", "--async"]}
+{"template": "cylT_Re100_dt10", "run": "t_gov/cylT_Re100_dt10__default", "args": ["--method", "static"]}
+{"template": "cylT_Re100_dt10", "run": "t_gov/cylT_Re100_dt10__govRules", "script": "govbench.py", "args": ["--backend", "rules"]}
+{"template": "cavT_Re1000_dt05", "run": "t_gov/cavT_Re1000_dt05__govJev_r2", "script": "govbench.py", "args": ["--backend", "jev"]}
+{"template": "cylT_Re100_dt05", "run": "t_gov/cylT_Re100_dt05__govJev_r1", "script": "govbench.py", "args": ["--backend", "jev"]}
+{"template": "cylT_Re60_dt10", "run": "t_gov/cylT_Re60_dt10__govJev_r1", "script": "govbench.py", "args": ["--backend", "jev"]}
+{"template": "cavT_Re1000_dt10", "run": "t_gov/cavT_Re1000_dt10__govJev_r0", "script": "govbench.py", "args": ["--backend", "jev"]}
+{"template": "cylT_Re100_dt10", "run": "t_gov/cylT_Re100_dt10__govJev_r0", "script": "govbench.py", "args": ["--backend", "jev"]}
+{"template": "pitzT_U20_dt1", "run": "t_gov/pitzT_U20_dt1__govJev_r2", "script": "govbench.py", "args": ["--backend", "jev"]}
+{"template": "cav3T_Re2000_dt15", "run": "t_gov/cav3T_Re2000_dt15__govJev_async_r2", "script": "govbench.py", "args": ["--backend", "jev", "--async"]}
+{"template": "cylT_Re100_dt10", "run": "t_gov/cylT_Re100_dt10__govJev_async_r0", "script": "govbench.py", "args": ["--backend", "jev", "--async"]}
+{"template": "pitzT_U10_dt2", "run": "t_gov/pitzT_U10_dt2__govRules", "script": "govbench.py", "args": ["--backend", "rules"]}
+{"template": "pitzT_U10_dt1", "run": "t_gov/pitzT_U10_dt1__govJev_r1", "script": "govbench.py", "args": ["--backend", "jev"]}
+{"template": "cav3T_Re400_dt30", "run": "t_gov/cav3T_Re400_dt30__govJev_async_r0", "script": "govbench.py", "args": ["--backend", "jev", "--async"]}
+{"template": "pitzT_U10_dt1", "run": "t_gov/pitzT_U10_dt1__govJev_async_r1", "script": "govbench.py", "args": ["--backend", "jev", "--async"]}
+{"template": "pitzT_U10_dt1", "run": "t_gov/pitzT_U10_dt1__govJev_async_r2", "script": "govbench.py", "args": ["--backend", "jev", "--async"]}
+{"template": "cav3T_Re1000_dt30", "run": "t_gov/cav3T_Re1000_dt30__govJev_async_r0", "script": "govbench.py", "args": ["--backend", "jev", "--async"]}
+{"template": "cavT_Re2500_dt05", "run": "t_gov/cavT_Re2500_dt05__govJev_r2", "script": "govbench.py", "args": ["--backend", "jev"]}
+{"template": "cavT_Re1000_dt10", "run": "t_gov/cavT_Re1000_dt10__govJev_r1", "script": "govbench.py", "args": ["--backend", "jev"]}
+{"template": "cav3T_Re1000_dt15", "run": "t_gov/cav3T_Re1000_dt15__govRules", "script": "govbench.py", "args": ["--backend", "rules"]}
+{"template": "cavT_Re2500_dt05", "run": "t_gov/cavT_Re2500_dt05__govRules", "script": "govbench.py", "args": ["--backend", "rules"]}
+{"template": "pitzT_U10_dt1", "run": "t_gov/pitzT_U10_dt1__govJev_r2", "script": "govbench.py", "args": ["--backend", "jev"]}
+{"template": "cavT_Re2500_dt05", "run": "t_gov/cavT_Re2500_dt05__govJev_r1", "script": "govbench.py", "args": ["--backend", "jev"]}
+{"template": "cylT_Re100_dt05", "run": "t_gov/cylT_Re100_dt05__govJev_r0", "script": "govbench.py", "args": ["--backend", "jev"]}
+{"template": "cylT_Re100_dt05", "run": "t_gov/cylT_Re100_dt05__govJev_r2", "script": "govbench.py", "args": ["--backend", "jev"]}
+{"template": "pitzT_U5_dt2", "run": "t_gov/pitzT_U5_dt2__govJev_r2", "script": "govbench.py", "args": ["--backend", "jev"]}
+{"template": "pitzT_U5_dt2", "run": "t_gov/pitzT_U5_dt2__govJev_r0", "script": "govbench.py", "args": ["--backend", "jev"]}
+{"template": "pitzT_U20_dt1", "run": "t_gov/pitzT_U20_dt1__govJev_async_r0", "script": "govbench.py", "args": ["--backend", "jev", "--async"]}
+{"template": "pitzT_U10_dt1", "run": "t_gov/pitzT_U10_dt1__govRules", "script": "govbench.py", "args": ["--backend", "rules"]}
+{"template": "cylT_Re150_dt05", "run": "t_gov/cylT_Re150_dt05__govJev_async_r1", "script": "govbench.py", "args": ["--backend", "jev", "--async"]}
+{"template": "cylT_Re60_dt10", "run": "t_gov/cylT_Re60_dt10__govJev_r2", "script": "govbench.py", "args": ["--backend", "jev"]}
+{"template": "cav3T_Re400_dt30", "run": "t_gov/cav3T_Re400_dt30__govRules", "script": "govbench.py", "args": ["--backend", "rules"]}
+{"template": "pitzT_U20_dt1", "run": "t_gov/pitzT_U20_dt1__govJev_r0", "script": "govbench.py", "args": ["--backend", "jev"]}
+{"template": "pitzT_U5_dt2", "run": "t_gov/pitzT_U5_dt2__govJev_async_r1", "script": "govbench.py", "args": ["--backend", "jev", "--async"]}
+{"template": "cav3T_Re2000_dt15", "run": "t_gov/cav3T_Re2000_dt15__govJev_async_r0", "script": "govbench.py", "args": ["--backend", "jev", "--async"]}
+{"template": "cav3T_Re1000_dt30", "run": "t_gov/cav3T_Re1000_dt30__govJev_async_r1", "script": "govbench.py", "args": ["--backend", "jev", "--async"]}
+{"template": "cylT_Re100_dt05", "run": "t_gov/cylT_Re100_dt05__govRules", "script": "govbench.py", "args": ["--backend", "rules"]}
+{"template": "cylT_Re60_dt10", "run": "t_gov/cylT_Re60_dt10__govJev_async_r0", "script": "govbench.py", "args": ["--backend", "jev", "--async"]}
+{"template": "pitzT_U5_dt2", "run": "t_gov/pitzT_U5_dt2__govRules", "script": "govbench.py", "args": ["--backend", "rules"]}
+{"template": "cavT_Re2500_dt05", "run": "t_gov/cavT_Re2500_dt05__govJev_r0", "script": "govbench.py", "args": ["--backend", "jev"]}
+{"template": "pitzT_U5_dt2", "run": "t_gov/pitzT_U5_dt2__govJev_async_r2", "script": "govbench.py", "args": ["--backend", "jev", "--async"]}
+{"template": "pitzT_U20_dt1", "run": "t_gov/pitzT_U20_dt1__govJev_async_r1", "script": "govbench.py", "args": ["--backend", "jev", "--async"]}
+{"template": "cav3T_Re1000_dt15", "run": "t_gov/cav3T_Re1000_dt15__default", "args": ["--method", "static"]}
+{"template": "cavT_Re2500_dt05", "run": "t_gov/cavT_Re2500_dt05__govJev_async_r0", "script": "govbench.py", "args": ["--backend", "jev", "--async"]}

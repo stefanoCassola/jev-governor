@@ -1,0 +1,15 @@
+FoamFile { version 2.0; format ascii; class volVectorField; object U; }
+dimensions [0 1 -1 0 0 0 0];
+internalField uniform (0 0 0);
+boundaryField
+{
+    inlet
+    {
+        type        exprFixedValue;
+        value       uniform (0 0 0);
+        valueExpr   "vector(24*pos().y()*(0.5 - pos().y()), 0, 0)";
+    }
+    outlet { type zeroGradient; }
+    walls { type noSlip; }
+    frontAndBack { type empty; }
+}

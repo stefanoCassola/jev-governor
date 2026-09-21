@@ -1,0 +1,30 @@
+decisions        20  (judge: jev)
+moves            hold=7, increase_large=2, increase_probe=8, take_back=3
+guards           0
+judge latency    mean 0.273 s, max 0.632 s, total 5.5 s
+API retries      0
+time steps       200, 3313 outer iterations (16.6 per step)
+capped steps     0 slow, 0 unstable (0.0 % of all steps)
+final factors    U 0.9032, p 0.4705
+guard actions    0
+upwind at end    False
+       10  increase_large: U 0.700 -> 0.824
+       20  increase_large: U 0.824 -> 0.903
+       30  increase_probe: U 0.903 -> 0.918
+       40  take_back: U 0.918 -> 0.903
+       50  increase_probe: p 0.300 -> 0.340
+       60  increase_probe: p 0.340 -> 0.382
+       70  increase_probe: p 0.382 -> 0.425
+       80  increase_probe: p 0.425 -> 0.470
+       90  increase_probe: p 0.470 -> 0.516
+      100  take_back: p 0.516 -> 0.470
+      110  hold (U 0.903, p 0.470)
+      120  hold (U 0.903, p 0.470)
+      130  hold (U 0.903, p 0.470)
+      140  increase_probe: U 0.903 -> 0.918
+      150  take_back: U 0.918 -> 0.903
+      160  hold (U 0.903, p 0.470)
+      170  hold (U 0.903, p 0.470)
+      180  hold (U 0.903, p 0.470)
+      190  hold (U 0.903, p 0.470)
+      200  increase_probe: p 0.470 -> 0.516
