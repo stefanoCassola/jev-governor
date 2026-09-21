@@ -62,9 +62,7 @@ AI systems had two roles here, and we describe both because the second goes well
   including agents that had not seen the conclusions.
 
 The author conceived the project, supplied the production problem, the in-house solver, the microstructure data,
-the compute and the model access, and set the goals and constraints at each stage, among them the comparison with
-reinforcement learning, counting total wall-clock time including every model call, rerunning every run affected by a
-service outage, and the audit itself. The author is not affiliated with TypeSafe and used the model as a paying
+the compute and the model access, and set the goals and constraints at each stage. The author is not affiliated with TypeSafe and used the model as a paying
 customer through its public interface.
 
 ## Licence and citation
