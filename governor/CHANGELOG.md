@@ -3,6 +3,15 @@
 The public repository starts at 0.3.1; earlier versions were developed privately and their tags are
 not part of it.
 
+## Unreleased
+
+- Fixed a flaky unit test: `test_sidecar_answers_state_files_atomically` and
+  `test_sidecar_serves_pimple_states_and_ignores_a_stale_done_file` wrote `state_<n>.json` directly
+  while a sidecar thread was already polling for it, so the thread could occasionally read the file
+  mid-write and crash with a `JSONDecodeError` on an empty read. The real function object never hits
+  this because it writes a `.tmp` file and renames it (`jevGovernor.C`, `writeState`); the tests now do
+  the same. No change to `governor/src` or `governor/python`.
+
 ## 0.3.1 (2026-09-21)
 
 - First public release. All benchmark numbers in the README were produced with 0.3.0 or earlier;

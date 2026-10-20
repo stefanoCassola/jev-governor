@@ -14,6 +14,14 @@ from jev_governor.sidecar import serve
 FIELDS = ["U", "p"]
 
 
+def write_state_file(path, text):
+    """Write a state_<n>.json the way the real function object does: tmp file then rename, so a
+    concurrently running sidecar thread never observes a partially written file."""
+    tmp = path.with_name(path.name + ".tmp")
+    tmp.write_text(text)
+    tmp.replace(path)
+
+
 def make_state(n, rate, *, u=0.7, p=0.3, consistent=False, upwind=False, interval=25, level=1e-1,
                bounds=(0.3, 0.95), followers=(), nan=False):
     """Residuals level * 10**(rate * it / 100): rate < 0 converges, rate > 0 diverges."""
@@ -164,7 +172,7 @@ def test_sidecar_answers_state_files_atomically(tmp_path):
     t = threading.Thread(target=serve, args=(tmp_path,), kwargs={"backend": "rules"})
     t.start()
     for n in (25, 50):
-        (handoff / f"state_{n}.json").write_text(json.dumps(make_state(n, rate=-0.1)))
+        write_state_file(handoff / f"state_{n}.json", json.dumps(make_state(n, rate=-0.1)))
         deadline = time.time() + 10
         while not (handoff / f"decision_{n}").exists() and time.time() < deadline:
             time.sleep(0.01)

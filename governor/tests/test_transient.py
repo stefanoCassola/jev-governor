@@ -10,6 +10,14 @@ from jev_governor.transient import OK, SLOW, UNSTABLE, GovernorT, RulesJudgeT, S
 TARGETS = {"U": 1e-5, "p": 1e-4}
 
 
+def write_state_file(path, text):
+    """Write a state_<n>.json the way the real function object does: tmp file then rename, so a
+    concurrently running sidecar thread never observes a partially written file."""
+    tmp = path.with_name(path.name + ".tmp")
+    tmp.write_text(text)
+    tmp.replace(path)
+
+
 def seq(n_outer, *, erratic=False, start=1e-2, rate=-0.3):
     vals = [start * 10 ** (rate * i) for i in range(n_outer)]
     if erratic:
@@ -167,7 +175,7 @@ def test_sidecar_serves_pimple_states_and_ignores_a_stale_done_file(tmp_path):
     os.utime(handoff / "done", (time.time() - 3600, time.time() - 3600))
     t = threading.Thread(target=serve, args=(tmp_path,), kwargs={"backend": "rules"})
     t.start()
-    (handoff / "state_10.json").write_text(json.dumps(make_state(10, steps(1, 10, 20))))
+    write_state_file(handoff / "state_10.json", json.dumps(make_state(10, steps(1, 10, 20))))
     deadline = time.time() + 10
     while not (handoff / "decision_10").exists() and time.time() < deadline:
         time.sleep(0.01)
